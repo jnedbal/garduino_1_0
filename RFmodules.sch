@@ -1,0 +1,595 @@
+EESchema Schematic File Version 2
+LIBS:power
+LIBS:device
+LIBS:transistors
+LIBS:conn
+LIBS:linear
+LIBS:regul
+LIBS:74xx
+LIBS:cmos4000
+LIBS:adc-dac
+LIBS:memory
+LIBS:xilinx
+LIBS:microcontrollers
+LIBS:dsp
+LIBS:microchip
+LIBS:analog_switches
+LIBS:motorola
+LIBS:texas
+LIBS:intel
+LIBS:audio
+LIBS:interface
+LIBS:digital-audio
+LIBS:philips
+LIBS:display
+LIBS:cypress
+LIBS:siliconi
+LIBS:opto
+LIBS:atmel
+LIBS:contrib
+LIBS:valves
+LIBS:jakub
+LIBS:garduino-cache
+EELAYER 25 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 4 4
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L 74LS165 U7
+U 1 1 570BE18F
+P 4800 4400
+F 0 "U7" H 4800 5100 50  0000 C CNN
+F 1 "74HCT165" H 4800 3700 50  0000 C CNN
+F 2 "" H 4800 4400 50  0000 C CNN
+F 3 "" H 4800 4400 50  0000 C CNN
+F 4 "CD74HCT165M96" H 4800 4400 60  0001 C CNN "Part Number"
+F 5 "Texas Instruments" H 4800 4400 60  0001 C CNN "Manufacturer"
+F 6 "SO-16" H 4800 4400 60  0001 C CNN "Package"
+F 7 "Farnell" H 4800 4400 60  0001 C CNN "Supplier"
+F 8 "2407147" H 4800 4400 60  0001 C CNN "Order Code"
+F 9 "8-bit parallel-to-serial shift register" H 4800 4400 60  0001 C CNN "Note"
+	1    4800 4400
+	1    0    0    -1  
+$EndComp
+$Comp
+L 74HCT1G125 U8
+U 1 1 570BE197
+P 6400 3900
+F 0 "U8" H 6400 4100 60  0000 C CNN
+F 1 "74AHCT1G125" H 6400 3550 60  0000 C CNN
+F 2 "" H 6400 3900 60  0000 C CNN
+F 3 "" H 6400 3900 60  0000 C CNN
+F 4 "SN74AHCT1G125DCKT" H 6400 3900 60  0001 C CNN "Part Number"
+F 5 "Texas Instruments" H 6400 3900 60  0001 C CNN "Manufacturer"
+F 6 "SC-70" H 6400 3900 60  0001 C CNN "Package"
+F 7 "Farnell" H 6400 3900 60  0001 C CNN "Supplier"
+F 8 "1470731" H 6400 3900 60  0001 C CNN "Order Code"
+F 9 "Buffer non-inverting 3-state" H 6400 3900 60  0001 C CNN "Note"
+	1    6400 3900
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR92
+U 1 1 570BE1AC
+P 7400 4500
+F 0 "#PWR92" H 7400 4250 50  0001 C CNN
+F 1 "GND" H 7400 4350 50  0000 C CNN
+F 2 "" H 7400 4500 50  0000 C CNN
+F 3 "" H 7400 4500 50  0000 C CNN
+	1    7400 4500
+	1    0    0    -1  
+$EndComp
+Text Label 5800 4150 0    60   ~ 0
+~CS_RF
+Text Label 3700 5000 0    60   ~ 0
+SCK
+Text Label 3700 4900 0    60   ~ 0
+~CS_RF
+NoConn ~ 5500 4000
+NoConn ~ 4100 3800
+Text Label 3700 3900 0    60   ~ 0
+D0_1
+Text Label 3700 4000 0    60   ~ 0
+D1_1
+Text Label 3700 4100 0    60   ~ 0
+D2_1
+Text Label 3700 4200 0    60   ~ 0
+D3_1
+Text Label 3700 4300 0    60   ~ 0
+D0_2
+Text Label 3700 4400 0    60   ~ 0
+D1_2
+Text Label 3700 4500 0    60   ~ 0
+D2_2
+Text Label 3700 4600 0    60   ~ 0
+D3_2
+$Comp
+L PT2272 M1
+U 1 1 570BE1C6
+P 1700 1400
+F 0 "M1" H 100 1600 60  0000 L CNN
+F 1 "PT2272" H 100 1500 60  0000 L CNN
+F 2 "" H 1700 1400 60  0000 C CNN
+F 3 "" H 1700 1400 60  0000 C CNN
+	1    1700 1400
+	0    -1   -1   0   
+$EndComp
+$Comp
+L PT2272 M2
+U 1 1 570BE1CD
+P 3900 1400
+F 0 "M2" H 2300 1600 60  0000 L CNN
+F 1 "PT2272" H 2300 1500 60  0000 L CNN
+F 2 "" H 3900 1400 60  0000 C CNN
+F 3 "" H 3900 1400 60  0000 C CNN
+	1    3900 1400
+	0    -1   -1   0   
+$EndComp
+Text Label 2100 1600 0    60   ~ 0
+D0_1
+Text Label 2100 1700 0    60   ~ 0
+D1_1
+Text Label 2100 1800 0    60   ~ 0
+D2_1
+Text Label 2100 1900 0    60   ~ 0
+D3_1
+Text Label 2100 2000 0    60   ~ 0
+VT_1
+$Comp
+L GND #PWR81
+U 1 1 570BE1D9
+P 2000 2100
+F 0 "#PWR81" H 2000 1850 50  0001 C CNN
+F 1 "GND" H 2000 1950 50  0000 C CNN
+F 2 "" H 2000 2100 50  0000 C CNN
+F 3 "" H 2000 2100 50  0000 C CNN
+	1    2000 2100
+	1    0    0    -1  
+$EndComp
+$Comp
+L VCC #PWR82
+U 1 1 570BE1DF
+P 2100 1300
+F 0 "#PWR82" H 2100 1150 50  0001 C CNN
+F 1 "VCC" H 2100 1450 50  0000 C CNN
+F 2 "" H 2100 1300 50  0000 C CNN
+F 3 "" H 2100 1300 50  0000 C CNN
+	1    2100 1300
+	1    0    0    -1  
+$EndComp
+Text Label 4300 1600 0    60   ~ 0
+D0_2
+Text Label 4300 1700 0    60   ~ 0
+D1_2
+Text Label 4300 1800 0    60   ~ 0
+D2_2
+Text Label 4300 1900 0    60   ~ 0
+D3_2
+Text Label 4300 2000 0    60   ~ 0
+VT_2
+$Comp
+L GND #PWR86
+U 1 1 570BE1EA
+P 4200 2100
+F 0 "#PWR86" H 4200 1850 50  0001 C CNN
+F 1 "GND" H 4200 1950 50  0000 C CNN
+F 2 "" H 4200 2100 50  0000 C CNN
+F 3 "" H 4200 2100 50  0000 C CNN
+	1    4200 2100
+	1    0    0    -1  
+$EndComp
+$Comp
+L VCC #PWR87
+U 1 1 570BE1F0
+P 4300 1300
+F 0 "#PWR87" H 4300 1150 50  0001 C CNN
+F 1 "VCC" H 4300 1450 50  0000 C CNN
+F 2 "" H 4300 1300 50  0000 C CNN
+F 3 "" H 4300 1300 50  0000 C CNN
+	1    4300 1300
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3100 4750 4100 4750
+Wire Wire Line
+	6800 3900 7000 3900
+Wire Wire Line
+	7300 3900 8000 3900
+Wire Wire Line
+	7400 3700 7400 4000
+Connection ~ 7400 3900
+Wire Wire Line
+	7400 4300 7400 4500
+Wire Wire Line
+	7000 3700 6900 3700
+Wire Wire Line
+	6900 3700 6900 3900
+Connection ~ 6900 3900
+Wire Wire Line
+	7300 3700 7400 3700
+Wire Wire Line
+	5500 3900 6100 3900
+Wire Wire Line
+	6100 4150 5700 4150
+Wire Wire Line
+	4100 5000 3600 5000
+Wire Wire Line
+	4100 4900 3600 4900
+Wire Wire Line
+	4100 3900 3600 3900
+Wire Wire Line
+	4100 4000 3600 4000
+Wire Wire Line
+	4100 4100 3600 4100
+Wire Wire Line
+	4100 4200 3600 4200
+Wire Wire Line
+	4100 4300 3600 4300
+Wire Wire Line
+	4100 4400 3600 4400
+Wire Wire Line
+	4100 4500 3600 4500
+Wire Wire Line
+	4100 4600 3600 4600
+Wire Wire Line
+	1900 1600 2400 1600
+Wire Wire Line
+	1900 1700 2400 1700
+Wire Wire Line
+	1900 1800 2400 1800
+Wire Wire Line
+	1900 1900 2400 1900
+Wire Wire Line
+	1900 2000 2400 2000
+Wire Wire Line
+	1900 1500 2100 1500
+Wire Wire Line
+	2100 1500 2100 1300
+Wire Wire Line
+	1900 1400 2000 1400
+Wire Wire Line
+	2000 1400 2000 2100
+Wire Wire Line
+	4100 1600 4600 1600
+Wire Wire Line
+	4100 1700 4600 1700
+Wire Wire Line
+	4100 1800 4600 1800
+Wire Wire Line
+	4100 1900 4600 1900
+Wire Wire Line
+	4100 2000 4600 2000
+Wire Wire Line
+	4100 1500 4300 1500
+Wire Wire Line
+	4300 1500 4300 1300
+Wire Wire Line
+	4100 1400 4200 1400
+Wire Wire Line
+	4200 1400 4200 2100
+$Comp
+L 74AHC1G02 U6
+U 1 1 570BE4CA
+P 2500 4750
+F 0 "U6" H 2500 4800 50  0000 C CNN
+F 1 "74AHC1G02" H 2550 4700 50  0000 C CNN
+F 2 "" H 2500 4750 50  0000 C CNN
+F 3 "" H 2500 4750 50  0000 C CNN
+F 4 "SN74AHC1G02DCKR" H 2500 4750 60  0001 C CNN "Part Number"
+F 5 "Texas Instruments" H 2500 4750 60  0001 C CNN "Manufacturer"
+F 6 "SC-70" H 2500 4750 60  0001 C CNN "Package"
+F 7 "Farnell" H 2500 4750 60  0001 C CNN "Supplier"
+F 8 "1287442" H 2500 4750 60  0001 C CNN "Order Code"
+F 9 "NOR gate 2-input" H 2500 4750 60  0001 C CNN "Note"
+	1    2500 4750
+	1    0    0    -1  
+$EndComp
+Text Label 1500 4650 0    60   ~ 0
+VT_1
+Text Label 1500 4850 0    60   ~ 0
+VT_2
+Wire Wire Line
+	1900 4650 1400 4650
+Wire Wire Line
+	1900 4850 1400 4850
+Text HLabel 3600 4900 0    60   Input ~ 0
+~CS_RF
+Text HLabel 3600 5000 0    60   Input ~ 0
+SCK
+Wire Wire Line
+	3200 4750 3200 5600
+Connection ~ 3200 4750
+Text HLabel 5000 5600 2    60   Output ~ 0
+RF_DATA_3V3
+Text Label 3700 4750 0    60   ~ 0
+RF_DATA
+Text HLabel 8000 3900 2    60   Output ~ 0
+MISO
+Text Label 7600 3900 0    60   ~ 0
+MISO
+$Comp
+L R R24
+U 1 1 570BEB97
+P 3550 5600
+F 0 "R24" V 3630 5600 50  0000 C CNN
+F 1 "1k5" V 3550 5600 50  0000 C CNN
+F 2 "" V 3480 5600 50  0000 C CNN
+F 3 "" H 3550 5600 50  0000 C CNN
+F 4 "RC0603JR-071K5L" H 3550 5600 60  0001 C CNN "Part Number"
+F 5 "Yageo" H 3550 5600 60  0001 C CNN "Manufacturer"
+F 6 "0603" H 3550 5600 60  0001 C CNN "Package"
+F 7 "Farnell" H 3550 5600 60  0001 C CNN "Supplier"
+F 8 "9233407" H 3550 5600 60  0001 C CNN "Order Code"
+F 9 "Open Parts Library" H 3550 5600 60  0001 C CNN "Alt. Supplier"
+F 10 "301010114" H 3550 5600 60  0001 C CNN "Alt. Order Code"
+F 11 "1.5kΩ/1% 0603 resistor" H 3550 5600 60  0001 C CNN "Note"
+	1    3550 5600
+	0    1    1    0   
+$EndComp
+$Comp
+L R R25
+U 1 1 570BEB9D
+P 3800 5850
+F 0 "R25" V 3880 5850 50  0000 C CNN
+F 1 "3k" V 3800 5850 50  0000 C CNN
+F 2 "" V 3730 5850 50  0000 C CNN
+F 3 "" H 3800 5850 50  0000 C CNN
+F 4 "RC0603FR-073KL" H 3800 5850 60  0001 C CNN "Part Number"
+F 5 "Yageo" H 3800 5850 60  0001 C CNN "Manufacturer"
+F 6 "0603" H 3800 5850 60  0001 C CNN "Package"
+F 7 "Farnell" H 3800 5850 60  0001 C CNN "Supplier"
+F 8 "9330976" H 3800 5850 60  0001 C CNN "Order Code"
+F 9 "Open Parts Library" H 3800 5850 60  0001 C CNN "Alt. Supplier"
+F 10 "3kΩ/1% 0603 resistor" H 3800 5850 60  0001 C CNN "Note"
+	1    3800 5850
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR85
+U 1 1 570BEBA3
+P 3800 6200
+F 0 "#PWR85" H 3800 5950 50  0001 C CNN
+F 1 "GND" H 3800 6050 50  0000 C CNN
+F 2 "" H 3800 6200 50  0000 C CNN
+F 3 "" H 3800 6200 50  0000 C CNN
+	1    3800 6200
+	1    0    0    -1  
+$EndComp
+$Comp
+L C C22
+U 1 1 570BEBA9
+P 3550 5400
+F 0 "C22" V 3400 5450 50  0000 L CNN
+F 1 "10p" V 3500 5450 50  0000 L CNN
+F 2 "" H 3588 5250 50  0000 C CNN
+F 3 "" H 3550 5400 50  0000 C CNN
+F 4 "CC0603JRNPO9BN100" H 3550 5400 60  0001 C CNN "Part Number"
+F 5 "Yageo" H 3550 5400 60  0001 C CNN "Manufacturer"
+F 6 "0603" H 3550 5400 60  0001 C CNN "Package"
+F 7 "Farnell" H 3550 5400 60  0001 C CNN "Supplier"
+F 8 "721967" H 3550 5400 60  0001 C CNN "Order Code"
+F 9 "Open Parts Library" H 3550 5400 60  0001 C CNN "Alt. Supplier"
+F 10 "10pF/50V C0G/NP0 0603 ceramic capacitor" H 3550 5400 60  0001 C CNN "Note"
+	1    3550 5400
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	3200 5600 3400 5600
+Wire Wire Line
+	3700 5600 5000 5600
+Wire Wire Line
+	3800 5400 3800 5700
+Connection ~ 3800 5600
+Wire Wire Line
+	3800 6000 3800 6200
+Wire Wire Line
+	3400 5400 3300 5400
+Wire Wire Line
+	3300 5400 3300 5600
+Connection ~ 3300 5600
+Wire Wire Line
+	3700 5400 3800 5400
+Text Label 4200 5600 0    60   ~ 0
+RF_DATA_3V3
+Text Label 5800 3900 0    60   ~ 0
+SD1
+Text Label 6900 3900 1    60   ~ 0
+SD2
+$Comp
+L C C21
+U 1 1 570C68DF
+P 2500 5950
+F 0 "C21" H 2525 6050 50  0000 L CNN
+F 1 "100n" H 2525 5850 50  0000 L CNN
+F 2 "" H 2538 5800 50  0000 C CNN
+F 3 "" H 2500 5950 50  0000 C CNN
+F 4 "CC0603KRX7R9BB104" H 2500 5950 60  0001 C CNN "Part Number"
+F 5 "Yageo" H 2500 5950 60  0001 C CNN "Manufacturer"
+F 6 "0603" H 2500 5950 60  0001 C CNN "Package"
+F 7 "Farnell" H 2500 5950 60  0001 C CNN "Supplier"
+F 8 "1362556" H 2500 5950 60  0001 C CNN "Order Code"
+F 9 "Open Parts Library" H 2500 5950 60  0001 C CNN "Alt. Supplier"
+F 10 "100nF/50V X7R 0603 ceramic capacitor" H 2500 5950 60  0001 C CNN "Note"
+	1    2500 5950
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2500 6100 2500 6200
+$Comp
+L GND #PWR84
+U 1 1 570C68E7
+P 2500 6200
+F 0 "#PWR84" H 2500 5950 50  0001 C CNN
+F 1 "GND" H 2500 6050 50  0000 C CNN
+F 2 "" H 2500 6200 50  0000 C CNN
+F 3 "" H 2500 6200 50  0000 C CNN
+	1    2500 6200
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2500 5800 2500 5700
+$Comp
+L VCC #PWR83
+U 1 1 570C68EE
+P 2500 5700
+F 0 "#PWR83" H 2500 5550 50  0001 C CNN
+F 1 "VCC" H 2500 5850 50  0000 C CNN
+F 2 "" H 2500 5700 50  0000 C CNN
+F 3 "" H 2500 5700 50  0000 C CNN
+	1    2500 5700
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5500 5200 5500 5300
+$Comp
+L GND #PWR89
+U 1 1 570C6A23
+P 5500 5300
+F 0 "#PWR89" H 5500 5050 50  0001 C CNN
+F 1 "GND" H 5500 5150 50  0000 C CNN
+F 2 "" H 5500 5300 50  0000 C CNN
+F 3 "" H 5500 5300 50  0000 C CNN
+	1    5500 5300
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5500 4900 5500 4800
+$Comp
+L VCC #PWR88
+U 1 1 570C6A2A
+P 5500 4800
+F 0 "#PWR88" H 5500 4650 50  0001 C CNN
+F 1 "VCC" H 5500 4950 50  0000 C CNN
+F 2 "" H 5500 4800 50  0000 C CNN
+F 3 "" H 5500 4800 50  0000 C CNN
+	1    5500 4800
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6400 5200 6400 5300
+$Comp
+L GND #PWR91
+U 1 1 570C6B23
+P 6400 5300
+F 0 "#PWR91" H 6400 5050 50  0001 C CNN
+F 1 "GND" H 6400 5150 50  0000 C CNN
+F 2 "" H 6400 5300 50  0000 C CNN
+F 3 "" H 6400 5300 50  0000 C CNN
+	1    6400 5300
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6400 4900 6400 4800
+$Comp
+L VCC #PWR90
+U 1 1 570C6B2A
+P 6400 4800
+F 0 "#PWR90" H 6400 4650 50  0001 C CNN
+F 1 "VCC" H 6400 4950 50  0000 C CNN
+F 2 "" H 6400 4800 50  0000 C CNN
+F 3 "" H 6400 4800 50  0000 C CNN
+	1    6400 4800
+	1    0    0    -1  
+$EndComp
+$Comp
+L C C23
+U 1 1 573D12B0
+P 5500 5050
+F 0 "C23" H 5525 5150 50  0000 L CNN
+F 1 "100n" H 5525 4950 50  0000 L CNN
+F 2 "" H 5538 4900 50  0000 C CNN
+F 3 "" H 5500 5050 50  0000 C CNN
+F 4 "CC0603KRX7R9BB104" H 5500 5050 60  0001 C CNN "Part Number"
+F 5 "Yageo" H 5500 5050 60  0001 C CNN "Manufacturer"
+F 6 "0603" H 5500 5050 60  0001 C CNN "Package"
+F 7 "Farnell" H 5500 5050 60  0001 C CNN "Supplier"
+F 8 "1362556" H 5500 5050 60  0001 C CNN "Order Code"
+F 9 "Open Parts Library" H 5500 5050 60  0001 C CNN "Alt. Supplier"
+F 10 "100nF/50V X7R 0603 ceramic capacitor" H 5500 5050 60  0001 C CNN "Note"
+	1    5500 5050
+	1    0    0    -1  
+$EndComp
+$Comp
+L C C24
+U 1 1 573D1332
+P 6400 5050
+F 0 "C24" H 6425 5150 50  0000 L CNN
+F 1 "100n" H 6425 4950 50  0000 L CNN
+F 2 "" H 6438 4900 50  0000 C CNN
+F 3 "" H 6400 5050 50  0000 C CNN
+F 4 "CC0603KRX7R9BB104" H 6400 5050 60  0001 C CNN "Part Number"
+F 5 "Yageo" H 6400 5050 60  0001 C CNN "Manufacturer"
+F 6 "0603" H 6400 5050 60  0001 C CNN "Package"
+F 7 "Farnell" H 6400 5050 60  0001 C CNN "Supplier"
+F 8 "1362556" H 6400 5050 60  0001 C CNN "Order Code"
+F 9 "Open Parts Library" H 6400 5050 60  0001 C CNN "Alt. Supplier"
+F 10 "100nF/50V X7R 0603 ceramic capacitor" H 6400 5050 60  0001 C CNN "Note"
+	1    6400 5050
+	1    0    0    -1  
+$EndComp
+$Comp
+L C C25
+U 1 1 573D1776
+P 7150 3700
+F 0 "C25" V 7000 3750 50  0000 L CNN
+F 1 "10p" V 7100 3750 50  0000 L CNN
+F 2 "" H 7188 3550 50  0000 C CNN
+F 3 "" H 7150 3700 50  0000 C CNN
+F 4 "CC0603JRNPO9BN100" H 7150 3700 60  0001 C CNN "Part Number"
+F 5 "Yageo" H 7150 3700 60  0001 C CNN "Manufacturer"
+F 6 "0603" H 7150 3700 60  0001 C CNN "Package"
+F 7 "Farnell" H 7150 3700 60  0001 C CNN "Supplier"
+F 8 "721967" H 7150 3700 60  0001 C CNN "Order Code"
+F 9 "Open Parts Library" H 7150 3700 60  0001 C CNN "Alt. Supplier"
+F 10 "10pF/50V C0G/NP0 0603 ceramic capacitor" H 7150 3700 60  0001 C CNN "Note"
+	1    7150 3700
+	0    1    1    0   
+$EndComp
+$Comp
+L R R26
+U 1 1 573D3924
+P 7150 3900
+F 0 "R26" V 7230 3900 50  0000 C CNN
+F 1 "1k5" V 7150 3900 50  0000 C CNN
+F 2 "" V 7080 3900 50  0000 C CNN
+F 3 "" H 7150 3900 50  0000 C CNN
+F 4 "RC0603JR-071K5L" H 7150 3900 60  0001 C CNN "Part Number"
+F 5 "Yageo" H 7150 3900 60  0001 C CNN "Manufacturer"
+F 6 "0603" H 7150 3900 60  0001 C CNN "Package"
+F 7 "Farnell" H 7150 3900 60  0001 C CNN "Supplier"
+F 8 "9233407" H 7150 3900 60  0001 C CNN "Order Code"
+F 9 "Open Parts Library" H 7150 3900 60  0001 C CNN "Alt. Supplier"
+F 10 "301010114" H 7150 3900 60  0001 C CNN "Alt. Order Code"
+F 11 "1.5kΩ/1% 0603 resistor" H 7150 3900 60  0001 C CNN "Note"
+	1    7150 3900
+	0    1    1    0   
+$EndComp
+$Comp
+L R R27
+U 1 1 573D3D7C
+P 7400 4150
+F 0 "R27" V 7480 4150 50  0000 C CNN
+F 1 "3k" V 7400 4150 50  0000 C CNN
+F 2 "" V 7330 4150 50  0000 C CNN
+F 3 "" H 7400 4150 50  0000 C CNN
+F 4 "RC0603FR-073KL" H 7400 4150 60  0001 C CNN "Part Number"
+F 5 "Yageo" H 7400 4150 60  0001 C CNN "Manufacturer"
+F 6 "0603" H 7400 4150 60  0001 C CNN "Package"
+F 7 "Farnell" H 7400 4150 60  0001 C CNN "Supplier"
+F 8 "9330976" H 7400 4150 60  0001 C CNN "Order Code"
+F 9 "Open Parts Library" H 7400 4150 60  0001 C CNN "Alt. Supplier"
+F 10 "3kΩ/1% 0603 resistor" H 7400 4150 60  0001 C CNN "Note"
+	1    7400 4150
+	1    0    0    -1  
+$EndComp
+$EndSCHEMATC
