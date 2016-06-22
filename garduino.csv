@@ -1,0 +1,109 @@
+Reference, Value, Footprint, Datasheet, Part Number, Manufacturer, Package, Supplier, Order Code, Note, Alt. Supplier, Alt. Order Code
+U1,DS1339,,,DS1339U-33+T&R,Maxim,USOP-8,Farnell,2515464,I2C serial real-time clock,,
+C4,0.33F/5.5V,,,EECS0HD334VN,Panasonic,,Farnell,2472068,330mF/5.5V ⌀10.5mm backup capacitor,,
+Y1,32.768kHz,,,FC-135,Xinhunjing,1206,Farnell,2467864,32768Hz 1206 7pF crystal,Open Parts Library,306010055
+U2,24AA16T,,,24AA16T-I/OT,Microchip,SOT23-5,Farnell,1331290,16k I2C serial EEPROM,,
+R1,560k,,,RC0603JR-07560KL,Yageo,0603,Farnell,9233717,560kΩ/5% 0603 resistor,Open Parts Library,301010230
+Q1,CJ2302,TO_SOT_Packages_SMD:SOT-23,,CJ2302,JCET,SOT23,Farnell,1299316,N-channel MOSFET 20V/2.1A,Open Parts Library,305030015
+P2,3way KK,Connectors_Molex:Molex_KK_6410-03,,22-23-2031,Molex,3way,Farnell,1462950,3way KK-series header,,
+R2,10k,,,RC0603FR-0710KL,Yageo,0603,Farnell,9238603,10kΩ/1% 0603 resistor,Open Parts Library,301010299
+C1,10u/25V,Capacitors_SMD:C_0805,,CC0805KKX5R8BB106,Yageo,0805,Farnell,1735530,10μF/25V 0805 X5R ceramic capacitor,Open Parts Library,302010178
+C2,10u/25V,Capacitors_SMD:C_0805,,CC0805KKX5R8BB106,Yageo,0805,Farnell,1735530,10μF/25V 0805 X5R ceramic capacitor,Open Parts Library,302010178
+C3,100n,Capacitors_SMD:C_0603,,CC0603KRX7R9BB104,Yageo,0603,Farnell,1362556,100nF/50V X7R 0603 ceramic capacitor,Open Parts Library,
+C5,100n,Capacitors_SMD:C_0603,,CC0603KRX7R9BB104,Yageo,0603,Farnell,1362556,100nF/50V X7R 0603 ceramic capacitor,Open Parts Library,
+A1,ARDUINO_MKR1000,,
+P1,GS009S,Connect:AK300-2,,GS009S-5.0-02P-1,GOOSVN,5mm pitch,Farnell,2493622,5mm 2way screw terminal,Open Parts Library,320110028
+R3,560k,,,RC0603JR-07560KL,Yageo,0603,Farnell,9233717,560kΩ/5% 0603 resistor,Open Parts Library,301010230
+D1,LED GREEN,LEDs:LED_0603,,19-217-G7C-AN1P2-3T,Everlight,0603,Farnell,8554609,Green 0603 LED,Open Parts Library,304090043
+Q2,PSMN6R0,SMD_Packages:SO-8_PowerPAK_Vishay_Single,,PSMN6R0-30YLB,NXP,Power-SO8,Farnell,2067550,N-channel 30V 70A LFPAK MOSFET,,
+R5,10k,,,RC0603FR-0710KL,Yageo,0603,Farnell,9238603,10kΩ/1% 0603 resistor,Open Parts Library,301010299
+P3,GS009S,Connect:AK300-2,,GS009S-5.0-02P-1,GOOSVN,5mm pitch,Farnell,2493622,5mm 2way screw terminal,Open Parts Library,320110028
+U3,74AHCT244,,,SN74AHCT244PW,Texas Instruments,TSSOP-16,Farnell,9590706,Octal buffers/drivers with 3-state outputs,,
+C14,10u/25V,Capacitors_SMD:C_0805,,CC0805KKX5R8BB106,Yageo,0805,Farnell,1735530,10μF/25V 0805 X5R ceramic capacitor,Open Parts Library,302010178
+C6,100n,Capacitors_SMD:C_0603,,CC0603KRX7R9BB104,Yageo,0603,Farnell,1362556,100nF/50V X7R 0603 ceramic capacitor,Open Parts Library,302010138
+R4,560k,,,RC0603JR-07560KL,Yageo,0603,Farnell,9233717,560kΩ/5% 0603 resistor,Open Parts Library,301010230
+R8,560k,,,RC0603JR-07560KL,Yageo,0603,Farnell,9233717,560kΩ/5% 0603 resistor,Open Parts Library,301010230
+R7,560k,,,RC0603JR-07560KL,Yageo,0603,Farnell,9233717,560kΩ/5% 0603 resistor,Open Parts Library,301010230
+R11,560k,,,RC0603JR-07560KL,Yageo,0603,Farnell,9233717,560kΩ/5% 0603 resistor,Open Parts Library,301010230
+R12,560k,,,RC0603JR-07560KL,Yageo,0603,Farnell,9233717,560kΩ/5% 0603 resistor,Open Parts Library,301010230
+R16,560k,,,RC0603JR-07560KL,Yageo,0603,Farnell,9233717,560kΩ/5% 0603 resistor,Open Parts Library,301010230
+R15,560k,,,RC0603JR-07560KL,Yageo,0603,Farnell,9233717,560kΩ/5% 0603 resistor,Open Parts Library,301010230
+R6,10k,,,RC0603FR-0710KL,Yageo,0603,Farnell,9238603,10kΩ/1% 0603 resistor,Open Parts Library,301010299
+R10,10k,,,RC0603FR-0710KL,Yageo,0603,Farnell,9238603,10kΩ/1% 0603 resistor,Open Parts Library,301010299
+R9,10k,,,RC0603FR-0710KL,Yageo,0603,Farnell,9238603,10kΩ/1% 0603 resistor,Open Parts Library,301010299
+R13,10k,,,RC0603FR-0710KL,Yageo,0603,Farnell,9238603,10kΩ/1% 0603 resistor,Open Parts Library,301010299
+R14,10k,,,RC0603FR-0710KL,Yageo,0603,Farnell,9238603,10kΩ/1% 0603 resistor,Open Parts Library,301010299
+R18,10k,,,RC0603FR-0710KL,Yageo,0603,Farnell,9238603,10kΩ/1% 0603 resistor,Open Parts Library,301010299
+R17,10k,,,RC0603FR-0710KL,Yageo,0603,Farnell,9238603,10kΩ/1% 0603 resistor,Open Parts Library,301010299
+D2,LED GREEN,LEDs:LED_0603,,19-217-G7C-AN1P2-3T,Everlight,0603,Farnell,8554609,Green 0603 LED,Open Parts Library,304090043
+D6,LED GREEN,LEDs:LED_0603,,19-217-G7C-AN1P2-3T,Everlight,0603,Farnell,8554609,Green 0603 LED,Open Parts Library,304090043
+D5,LED GREEN,LEDs:LED_0603,,19-217-G7C-AN1P2-3T,Everlight,0603,Farnell,8554609,Green 0603 LED,Open Parts Library,304090043
+D9,LED GREEN,LEDs:LED_0603,,19-217-G7C-AN1P2-3T,Everlight,0603,Farnell,8554609,Green 0603 LED,Open Parts Library,304090043
+D10,LED GREEN,LEDs:LED_0603,,19-217-G7C-AN1P2-3T,Everlight,0603,Farnell,8554609,Green 0603 LED,Open Parts Library,304090043
+D14,LED GREEN,LEDs:LED_0603,,19-217-G7C-AN1P2-3T,Everlight,0603,Farnell,8554609,Green 0603 LED,Open Parts Library,304090043
+D13,LED GREEN,LEDs:LED_0603,,19-217-G7C-AN1P2-3T,Everlight,0603,Farnell,8554609,Green 0603 LED,Open Parts Library,304090043
+D3,1N5819,Diodes_SMD:SMA_Standard,,1N5819HW-7-F,Diodes,DO-214AC,Farnell,1773475,Schottky rectifier 40 V 1 A SOD-123,Open Parts Library,304020027
+D4,1N5819,Diodes_SMD:SMA_Standard,,1N5819HW-7-F,Diodes,DO-214AC,Farnell,1773475,Schottky rectifier 40 V 1 A SOD-123,Open Parts Library,304020027
+D8,1N5819,Diodes_SMD:SMA_Standard,,1N5819HW-7-F,Diodes,DO-214AC,Farnell,1773475,Schottky rectifier 40 V 1 A SOD-123,Open Parts Library,304020027
+D7,1N5819,Diodes_SMD:SMA_Standard,,1N5819HW-7-F,Diodes,DO-214AC,Farnell,1773475,Schottky rectifier 40 V 1 A SOD-123,Open Parts Library,304020027
+D11,1N5819,Diodes_SMD:SMA_Standard,,1N5819HW-7-F,Diodes,DO-214AC,Farnell,1773475,Schottky rectifier 40 V 1 A SOD-123,Open Parts Library,304020027
+D12,1N5819,Diodes_SMD:SMA_Standard,,1N5819HW-7-F,Diodes,DO-214AC,Farnell,1773475,Schottky rectifier 40 V 1 A SOD-123,Open Parts Library,304020027
+D16,1N5819,Diodes_SMD:SMA_Standard,,1N5819HW-7-F,Diodes,DO-214AC,Farnell,1773475,Schottky rectifier 40 V 1 A SOD-123,Open Parts Library,304020027
+D15,1N5819,Diodes_SMD:SMA_Standard,,1N5819HW-7-F,Diodes,DO-214AC,Farnell,1773475,Schottky rectifier 40 V 1 A SOD-123,Open Parts Library,304020027
+C13,10u/25V,Capacitors_SMD:C_0805,,CC0805KKX5R8BB106,Yageo,0805,Farnell,1735530,10μF/25V 0805 X5R ceramic capacitor,Open Parts Library,302010178
+C11,10u/25V,Capacitors_SMD:C_0805,,CC0805KKX5R8BB106,Yageo,0805,Farnell,1735530,10μF/25V 0805 X5R ceramic capacitor,Open Parts Library,302010178
+C12,10u/25V,Capacitors_SMD:C_0805,,CC0805KKX5R8BB106,Yageo,0805,Farnell,1735530,10μF/25V 0805 X5R ceramic capacitor,Open Parts Library,302010178
+C10,10u/25V,Capacitors_SMD:C_0805,,CC0805KKX5R8BB106,Yageo,0805,Farnell,1735530,10μF/25V 0805 X5R ceramic capacitor,Open Parts Library,302010178
+C9,10u/25V,Capacitors_SMD:C_0805,,CC0805KKX5R8BB106,Yageo,0805,Farnell,1735530,10μF/25V 0805 X5R ceramic capacitor,Open Parts Library,302010178
+C7,10u/25V,Capacitors_SMD:C_0805,,CC0805KKX5R8BB106,Yageo,0805,Farnell,1735530,10μF/25V 0805 X5R ceramic capacitor,Open Parts Library,302010178
+C8,10u/25V,Capacitors_SMD:C_0805,,CC0805KKX5R8BB106,Yageo,0805,Farnell,1735530,10μF/25V 0805 X5R ceramic capacitor,Open Parts Library,302010178
+P4,GS009S,Connect:AK300-2,,GS009S-5.0-02P-1,GOOSVN,5mm pitch,Farnell,2493622,5mm 2way screw terminal,Open Parts Library,320110028
+P6,GS009S,Connect:AK300-2,,GS009S-5.0-02P-1,GOOSVN,5mm pitch,Farnell,2493622,5mm 2way screw terminal,Open Parts Library,320110028
+P5,GS009S,Connect:AK300-2,,GS009S-5.0-02P-1,GOOSVN,5mm pitch,Farnell,2493622,5mm 2way screw terminal,Open Parts Library,320110028
+P7,GS009S,Connect:AK300-2,,GS009S-5.0-02P-1,GOOSVN,5mm pitch,Farnell,2493622,5mm 2way screw terminal,Open Parts Library,320110028
+P8,GS009S,Connect:AK300-2,,GS009S-5.0-02P-1,GOOSVN,5mm pitch,Farnell,2493622,5mm 2way screw terminal,Open Parts Library,320110028
+P10,GS009S,Connect:AK300-2,,GS009S-5.0-02P-1,GOOSVN,5mm pitch,Farnell,2493622,5mm 2way screw terminal,Open Parts Library,320110028
+P9,GS009S,Connect:AK300-2,,GS009S-5.0-02P-1,GOOSVN,5mm pitch,Farnell,2493622,5mm 2way screw terminal,Open Parts Library,320110028
+Q3,PSMN6R0,SMD_Packages:SO-8_PowerPAK_Vishay_Single,,PSMN6R0-30YLB,NXP,Power-SO8,Farnell,2067550,N-channel 30V 70A LFPAK MOSFET,,
+Q5,PSMN6R0,SMD_Packages:SO-8_PowerPAK_Vishay_Single,,PSMN6R0-30YLB,NXP,Power-SO8,Farnell,2067550,N-channel 30V 70A LFPAK MOSFET,,
+Q4,PSMN6R0,SMD_Packages:SO-8_PowerPAK_Vishay_Single,,PSMN6R0-30YLB,NXP,Power-SO8,Farnell,2067550,N-channel 30V 70A LFPAK MOSFET,,
+Q6,PSMN6R0,SMD_Packages:SO-8_PowerPAK_Vishay_Single,,PSMN6R0-30YLB,NXP,Power-SO8,Farnell,2067550,N-channel 30V 70A LFPAK MOSFET,,
+Q9,PSMN6R0,SMD_Packages:SO-8_PowerPAK_Vishay_Single,,PSMN6R0-30YLB,NXP,Power-SO8,Farnell,2067550,N-channel 30V 70A LFPAK MOSFET,,
+Q8,PSMN6R0,SMD_Packages:SO-8_PowerPAK_Vishay_Single,,PSMN6R0-30YLB,NXP,Power-SO8,Farnell,2067550,N-channel 30V 70A LFPAK MOSFET,,
+Q7,PSMN6R0,SMD_Packages:SO-8_PowerPAK_Vishay_Single,,PSMN6R0-30YLB,NXP,Power-SO8,Farnell,2067550,N-channel 30V 70A LFPAK MOSFET,,
+R19,1k5,,,RC0603JR-071K5L,Yageo,0603,Farnell,9233407,1.5kΩ/1% 0603 resistor,Open Parts Library,301010114
+Q10,FDN340P,TO_SOT_Packages_SMD:SOT-23,,FDN340P,Fairchild Semiconductor,SOT-23,Farnell,9846310,Single P-channel logic level PowerTrench MOSFET,Open Parts Library,305030026
+U4,MCP9700,,,MCP9700AT-E/TT,Microchip,SOT-23,Farnell,1605577,Low-power linear active thermistor IC,,
+R24,220R,,,RC0603JR-07220RL,Yageo,0603,Farnell,9233296 ,220Ω/1% 0603 resistor,Open Parts Library,301010163
+D17,1N5819,Diodes_SMD:SMA_Standard,,1N5819HW-7-F,Diodes,DO-214AC,Farnell,1773475,Schottky rectifier 40 V 1 A SOD-123,Open Parts Library,304020027
+C15,100n,Capacitors_SMD:C_0603,,CC0603KRX7R9BB104,Yageo,0603,Farnell,1362556,100nF/50V X7R 0603 ceramic capacitor,Open Parts Library,302010138
+C16,100n,Capacitors_SMD:C_0603,,CC0603KRX7R9BB104,Yageo,0603,Farnell,1362556,100nF/50V X7R 0603 ceramic capacitor,Open Parts Library,302010138
+R20,1k5,,,RC0603JR-071K5L,Yageo,0603,Farnell,9233407,1.5kΩ/1% 0603 resistor,Open Parts Library,301010114
+C23,1u,Capacitors_SMD:C_0603,,CC0603KRX7R8BB105,Yageo,0603,Farnell,2496835,1µF/25V X7R 0603 ceramic capacitor,Open Parts Library,302010139
+P11,3pin 3.5mm jack,jakub:SUNTECH_ST-PJ-312,,ST-PJ-312,Suntech,SMD,Farnell,,3.5mm audio jack with switch,Open Parts Library,320040007
+R22,1k5,,,RC0603JR-071K5L,Yageo,0603,Farnell,9233407,1.5kΩ/1% 0603 resistor,Open Parts Library,301010114
+C19,100n,Capacitors_SMD:C_0603,,CC0603KRX7R9BB104,Yageo,0603,Farnell,1362556,100nF/50V X7R 0603 ceramic capacitor,Open Parts Library,302010138
+C20,100n,Capacitors_SMD:C_0603,,CC0603KRX7R9BB104,Yageo,0603,Farnell,1362556,100nF/50V X7R 0603 ceramic capacitor,Open Parts Library,302010138
+R23,1k5,,,RC0603JR-071K5L,Yageo,0603,Farnell,9233407,1.5kΩ/1% 0603 resistor,Open Parts Library,301010114
+P12,3pin 3.5mm jack,jakub:SUNTECH_ST-PJ-312,,ST-PJ-312,Suntech,SMD,Farnell,,3.5mm audio jack with switch,Open Parts Library,320040007
+P14,3pin 3.5mm jack,jakub:SUNTECH_ST-PJ-312,,ST-PJ-312,Suntech,SMD,Farnell,,3.5mm audio jack with switch,Open Parts Library,320040007
+P13,3pin 3.5mm jack,jakub:SUNTECH_ST-PJ-312,,ST-PJ-312,Suntech,SMD,Farnell,,3.5mm audio jack with switch,Open Parts Library,320040007
+R21,560k,,,RC0603JR-07560KL,Yageo,0603,Farnell,9233717,560kΩ/5% 0603 resistor,Open Parts Library,301010230
+C17,100n,Capacitors_SMD:C_0603,,CC0603KRX7R9BB104,Yageo,0603,Farnell,1362556,100nF/50V X7R 0603 ceramic capacitor,Open Parts Library,302010138
+C18,100n,Capacitors_SMD:C_0603,,CC0603KRX7R9BB104,Yageo,0603,Farnell,1362556,100nF/50V X7R 0603 ceramic capacitor,Open Parts Library,302010138
+C22,100n,Capacitors_SMD:C_0603,,CC0603KRX7R9BB104,Yageo,0603,Farnell,1362556,100nF/50V X7R 0603 ceramic capacitor,Open Parts Library,302010138
+C21,100n,Capacitors_SMD:C_0603,,CC0603KRX7R9BB104,Yageo,0603,Farnell,1362556,100nF/50V X7R 0603 ceramic capacitor,Open Parts Library,302010138
+U6,74HCT165,,,CD74HCT165M96,Texas Instruments,SO-16,Farnell,2407147,8-bit parallel-to-serial shift register,,
+U7,74AHCT1G125,,,SN74AHCT1G125DCKT,Texas Instruments,SC-70,Farnell,1470731,Buffer non-inverting 3-state,,
+M1,PT2272,Socket_Strips:Socket_Strip_Straight_1x07,
+M2,PT2272,Socket_Strips:Socket_Strip_Straight_1x07,
+U5,74AHC1G02,,,SN74AHC1G02DCKR,Texas Instruments,SC-70,Farnell,1287442,NOR gate 2-input,,
+R25,1k5,,,RC0603JR-071K5L,Yageo,0603,Farnell,9233407,1.5kΩ/1% 0603 resistor,Open Parts Library,301010114
+R26,3k,,,RC0603FR-073KL,Yageo,0603,Farnell,9330976,3kΩ/1% 0603 resistor,Open Parts Library,
+C25,10p,Capacitors_SMD:C_0603,,CC0603JRNPO9BN100,Yageo,0603,Farnell,721967,10pF/50V C0G/NP0 0603 ceramic capacitor,Open Parts Library,
+C24,100n,Capacitors_SMD:C_0603,,CC0603KRX7R9BB104,Yageo,0603,Farnell,1362556,100nF/50V X7R 0603 ceramic capacitor,Open Parts Library,
+C26,100n,Capacitors_SMD:C_0603,,CC0603KRX7R9BB104,Yageo,0603,Farnell,1362556,100nF/50V X7R 0603 ceramic capacitor,Open Parts Library,
+C27,100n,Capacitors_SMD:C_0603,,CC0603KRX7R9BB104,Yageo,0603,Farnell,1362556,100nF/50V X7R 0603 ceramic capacitor,Open Parts Library,
+C28,10p,Capacitors_SMD:C_0603,,CC0603JRNPO9BN100,Yageo,0603,Farnell,721967,10pF/50V C0G/NP0 0603 ceramic capacitor,Open Parts Library,
+R27,1k5,,,RC0603JR-071K5L,Yageo,0603,Farnell,9233407,1.5kΩ/1% 0603 resistor,Open Parts Library,301010114
+R28,3k,,,RC0603FR-073KL,Yageo,0603,Farnell,9330976,3kΩ/1% 0603 resistor,Open Parts Library,

@@ -1,0 +1,2706 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<export version="D">
+  <design>
+    <source>/home/jakub/KiCAD/garduino_1_0/garduino.sch</source>
+    <date>Wed 22 Jun 2016 18:53:04 BST</date>
+    <tool>Eeschema 4.0.2+e4-6225~38~ubuntu14.04.1-stable</tool>
+    <sheet number="1" name="/" tstamps="/">
+      <title_block>
+        <title/>
+        <company/>
+        <rev/>
+        <date/>
+        <source>garduino.sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+      </title_block>
+    </sheet>
+    <sheet number="2" name="/PowerDrivers/" tstamps="/570B3A33/">
+      <title_block>
+        <title/>
+        <company/>
+        <rev/>
+        <date/>
+        <source>PowerDrivers.sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+      </title_block>
+    </sheet>
+    <sheet number="3" name="/Sensors/" tstamps="/570B8D3D/">
+      <title_block>
+        <title/>
+        <company/>
+        <rev/>
+        <date/>
+        <source>Sensors.sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+      </title_block>
+    </sheet>
+    <sheet number="4" name="/RFmodules/" tstamps="/570BDFE4/">
+      <title_block>
+        <title/>
+        <company/>
+        <rev/>
+        <date/>
+        <source>RFmodules.sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+      </title_block>
+    </sheet>
+  </design>
+  <components>
+    <comp ref="U1">
+      <value>DS1339</value>
+      <fields>
+        <field name="Part Number">DS1339U-33+T&amp;R</field>
+        <field name="Manufacturer">Maxim</field>
+        <field name="Package">USOP-8</field>
+        <field name="Supplier">Farnell</field>
+        <field name="Order Code">2515464</field>
+        <field name="Note">I2C serial real-time clock</field>
+      </fields>
+      <libsource lib="garduino-cache" part="DS1339"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>57096708</tstamp>
+    </comp>
+    <comp ref="C4">
+      <value>0.33F/5.5V</value>
+      <fields>
+        <field name="Part Number">EECS0HD334VN</field>
+        <field name="Manufacturer">Panasonic</field>
+        <field name="Supplier">Farnell</field>
+        <field name="Order Code">2472068</field>
+        <field name="Note">330mF/5.5V ⌀10.5mm backup capacitor</field>
+      </fields>
+      <libsource lib="device" part="CP"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>57096D40</tstamp>
+    </comp>
+    <comp ref="Y1">
+      <value>32.768kHz</value>
+      <fields>
+        <field name="Part Number">FC-135</field>
+        <field name="Manufacturer">Xinhunjing</field>
+        <field name="Package">1206</field>
+        <field name="Supplier">Farnell</field>
+        <field name="Order Code">2467864</field>
+        <field name="Alt. Supplier">Open Parts Library</field>
+        <field name="Alt. Order Code">306010055</field>
+        <field name="Note">32768Hz 1206 7pF crystal</field>
+      </fields>
+      <libsource lib="device" part="Crystal"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>570B6A6D</tstamp>
+    </comp>
+    <comp ref="U2">
+      <value>24AA16T</value>
+      <fields>
+        <field name="Part Number">24AA16T-I/OT</field>
+        <field name="Manufacturer">Microchip</field>
+        <field name="Package">SOT23-5</field>
+        <field name="Supplier">Farnell</field>
+        <field name="Order Code">1331290</field>
+        <field name="Note">16k I2C serial EEPROM</field>
+      </fields>
+      <libsource lib="memory" part="AT24CS16-STUM"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>570C021F</tstamp>
+    </comp>
+    <comp ref="R1">
+      <value>560k</value>
+      <fields>
+        <field name="Part Number">RC0603JR-07560KL</field>
+        <field name="Manufacturer">Yageo</field>
+        <field name="Package">0603</field>
+        <field name="Supplier">Farnell</field>
+        <field name="Order Code">9233717</field>
+        <field name="Alt. Supplier">Open Parts Library</field>
+        <field name="Alt. Order Code">301010230</field>
+        <field name="Note">560kΩ/5% 0603 resistor</field>
+      </fields>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>576ADD91</tstamp>
+    </comp>
+    <comp ref="Q1">
+      <value>CJ2302</value>
+      <footprint>TO_SOT_Packages_SMD:SOT-23</footprint>
+      <fields>
+        <field name="Part Number">CJ2302</field>
+        <field name="Manufacturer">JCET</field>
+        <field name="Package">SOT23</field>
+        <field name="Supplier">Farnell</field>
+        <field name="Order Code">1299316</field>
+        <field name="Alt. Supplier">Open Parts Library</field>
+        <field name="Alt. Order Code">305030015</field>
+        <field name="Note">N-channel MOSFET 20V/2.1A</field>
+      </fields>
+      <libsource lib="device" part="Q_NMOS_GSD"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>576AE1A0</tstamp>
+    </comp>
+    <comp ref="P2">
+      <value>3way KK</value>
+      <footprint>Connectors_Molex:Molex_KK_6410-03</footprint>
+      <fields>
+        <field name="Part Number">22-23-2031</field>
+        <field name="Manufacturer">Molex</field>
+        <field name="Package">3way</field>
+        <field name="Supplier">Farnell</field>
+        <field name="Order Code">1462950</field>
+        <field name="Note">3way KK-series header</field>
+      </fields>
+      <libsource lib="conn" part="CONN_01X03"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>576AEE4B</tstamp>
+    </comp>
+    <comp ref="R2">
+      <value>10k</value>
+      <fields>
+        <field name="Part Number">RC0603FR-0710KL</field>
+        <field name="Manufacturer">Yageo</field>
+        <field name="Package">0603</field>
+        <field name="Supplier">Farnell</field>
+        <field name="Order Code">9238603</field>
+        <field name="Alt. Supplier">Open Parts Library</field>
+        <field name="Alt. Order Code">301010299</field>
+        <field name="Note">10kΩ/1% 0603 resistor</field>
+      </fields>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>576B0907</tstamp>
+    </comp>
+    <comp ref="C1">
+      <value>10u/25V</value>
+      <footprint>Capacitors_SMD:C_0805</footprint>
+      <fields>
+        <field name="Part Number">CC0805KKX5R8BB106</field>
+        <field name="Manufacturer">Yageo</field>
+        <field name="Package">0805</field>
+        <field name="Supplier">Farnell</field>
+        <field name="Order Code">1735530</field>
+        <field name="Alt. Supplier">Open Parts Library</field>
+        <field name="Alt. Order Code">302010178</field>
+        <field name="Note">10μF/25V 0805 X5R ceramic capacitor</field>
+      </fields>
+      <libsource lib="device" part="C"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>576B2616</tstamp>
+    </comp>
+    <comp ref="C2">
+      <value>10u/25V</value>
+      <footprint>Capacitors_SMD:C_0805</footprint>
+      <fields>
+        <field name="Part Number">CC0805KKX5R8BB106</field>
+        <field name="Manufacturer">Yageo</field>
+        <field name="Package">0805</field>
+        <field name="Supplier">Farnell</field>
+        <field name="Order Code">1735530</field>
+        <field name="Alt. Supplier">Open Parts Library</field>
+        <field name="Alt. Order Code">302010178</field>
+        <field name="Note">10μF/25V 0805 X5R ceramic capacitor</field>
+      </fields>
+      <libsource lib="device" part="C"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>576B2669</tstamp>
+    </comp>
+    <comp ref="C3">
+      <value>100n</value>
+      <footprint>Capacitors_SMD:C_0603</footprint>
+      <fields>
+        <field name="Part Number">CC0603KRX7R9BB104</field>
+        <field name="Manufacturer">Yageo</field>
+        <field name="Package">0603</field>
+        <field name="Supplier">Farnell</field>
+        <field name="Order Code">1362556</field>
+        <field name="Alt. Supplier">Open Parts Library</field>
+        <field name="Note">100nF/50V X7R 0603 ceramic capacitor</field>
+      </fields>
+      <libsource lib="device" part="C"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>576B2D14</tstamp>
+    </comp>
+    <comp ref="C5">
+      <value>100n</value>
+      <footprint>Capacitors_SMD:C_0603</footprint>
+      <fields>
+        <field name="Part Number">CC0603KRX7R9BB104</field>
+        <field name="Manufacturer">Yageo</field>
+        <field name="Package">0603</field>
+        <field name="Supplier">Farnell</field>
+        <field name="Order Code">1362556</field>
+        <field name="Alt. Supplier">Open Parts Library</field>
+        <field name="Note">100nF/50V X7R 0603 ceramic capacitor</field>
+      </fields>
+      <libsource lib="device" part="C"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>576B2EA1</tstamp>
+    </comp>
+    <comp ref="A1">
+      <value>ARDUINO_MKR1000</value>
+      <libsource lib="jakub" part="ARDUINO_MKR1000"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5708451A</tstamp>
+    </comp>
+    <comp ref="P1">
+      <value>GS009S</value>
+      <footprint>Connect:AK300-2</footprint>
+      <fields>
+        <field name="Part Number">GS009S-5.0-02P-1</field>
+        <field name="Manufacturer">GOOSVN</field>
+        <field name="Package">5mm pitch</field>
+        <field name="Supplier">Farnell</field>
+        <field name="Order Code">2493622</field>
+        <field name="Alt. Supplier">Open Parts Library</field>
+        <field name="Alt. Order Code">320110028</field>
+        <field name="Note">5mm 2way screw terminal</field>
+      </fields>
+      <libsource lib="conn" part="CONN_01X02"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>576B68BD</tstamp>
+    </comp>
+    <comp ref="R3">
+      <value>560k</value>
+      <fields>
+        <field name="Part Number">RC0603JR-07560KL</field>
+        <field name="Manufacturer">Yageo</field>
+        <field name="Package">0603</field>
+        <field name="Supplier">Farnell</field>
+        <field name="Order Code">9233717</field>
+        <field name="Alt. Supplier">Open Parts Library</field>
+        <field name="Alt. Order Code">301010230</field>
+        <field name="Note">560kΩ/5% 0603 resistor</field>
+      </fields>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/PowerDrivers/" tstamps="/570B3A33/"/>
+      <tstamp>570B48C7</tstamp>
+    </comp>
+    <comp ref="D1">
+      <value>LED GREEN</value>
+      <footprint>LEDs:LED_0603</footprint>
+      <fields>
+        <field name="Part Number">19-217-G7C-AN1P2-3T</field>
+        <field name="Manufacturer">Everlight</field>
+        <field name="Package">0603</field>
+        <field name="Supplier">Farnell</field>
+        <field name="Order Code">8554609</field>
+        <field name="Alt. Supplier">Open Parts Library</field>
+        <field name="Alt. Order Code">304090043</field>
+        <field name="Note">Green 0603 LED</field>
+      </fields>
+      <libsource lib="device" part="LED"/>
+      <sheetpath names="/PowerDrivers/" tstamps="/570B3A33/"/>
+      <tstamp>570B48DE</tstamp>
+    </comp>
+    <comp ref="Q2">
+      <value>PSMN6R0</value>
+      <footprint>SMD_Packages:SO-8_PowerPAK_Vishay_Single</footprint>
+      <fields>
+        <field name="Part Number">PSMN6R0-30YLB</field>
+        <field name="Manufacturer">NXP</field>
+        <field name="Package">Power-SO8</field>
+        <field name="Supplier">Farnell</field>
+        <field name="Order Code">2067550</field>
+        <field name="Note">N-channel 30V 70A LFPAK MOSFET</field>
+      </fields>
+      <libsource lib="garduino-cache" part="Q_NMOS_SSSGD"/>
+      <sheetpath names="/PowerDrivers/" tstamps="/570B3A33/"/>
+      <tstamp>570B48E7</tstamp>
+    </comp>
+    <comp ref="R5">
+      <value>10k</value>
+      <fields>
+        <field name="Part Number">RC0603FR-0710KL</field>
+        <field name="Manufacturer">Yageo</field>
+        <field name="Package">0603</field>
+        <field name="Supplier">Farnell</field>
+        <field name="Order Code">9238603</field>
+        <field name="Alt. Supplier">Open Parts Library</field>
+        <field name="Alt. Order Code">301010299</field>
+        <field name="Note">10kΩ/1% 0603 resistor</field>
+      </fields>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/PowerDrivers/" tstamps="/570B3A33/"/>
+      <tstamp>570B48F4</tstamp>
+    </comp>
+    <comp ref="P3">
+      <value>GS009S</value>
+      <footprint>Connect:AK300-2</footprint>
+      <fields>
+        <field name="Part Number">GS009S-5.0-02P-1</field>
+        <field name="Manufacturer">GOOSVN</field>
+        <field name="Package">5mm pitch</field>
+        <field name="Supplier">Farnell</field>
+        <field name="Order Code">2493622</field>
+        <field name="Alt. Supplier">Open Parts Library</field>
+        <field name="Alt. Order Code">320110028</field>
+        <field name="Note">5mm 2way screw terminal</field>
+      </fields>
+      <libsource lib="conn" part="CONN_01X02"/>
+      <sheetpath names="/PowerDrivers/" tstamps="/570B3A33/"/>
+      <tstamp>570B4903</tstamp>
+    </comp>
+    <comp ref="U3">
+      <value>74AHCT244</value>
+      <fields>
+        <field name="Part Number">SN74AHCT244PW</field>
+        <field name="Manufacturer">Texas Instruments</field>
+        <field name="Package">TSSOP-16</field>
+        <field name="Supplier">Farnell</field>
+        <field name="Order Code">9590706</field>
+        <field name="Note">Octal buffers/drivers with 3-state outputs</field>
+      </fields>
+      <libsource lib="74xx" part="74LS244"/>
+      <sheetpath names="/PowerDrivers/" tstamps="/570B3A33/"/>
+      <tstamp>570B4B9F</tstamp>
+    </comp>
+    <comp ref="C14">
+      <value>10u/25V</value>
+      <footprint>Capacitors_SMD:C_0805</footprint>
+      <fields>
+        <field name="Part Number">CC0805KKX5R8BB106</field>
+        <field name="Manufacturer">Yageo</field>
+        <field name="Package">0805</field>
+        <field name="Supplier">Farnell</field>
+        <field name="Order Code">1735530</field>
+        <field name="Alt. Supplier">Open Parts Library</field>
+        <field name="Alt. Order Code">302010178</field>
+        <field name="Note">10μF/25V 0805 X5R ceramic capacitor</field>
+      </fields>
+      <libsource lib="device" part="C"/>
+      <sheetpath names="/PowerDrivers/" tstamps="/570B3A33/"/>
+      <tstamp>570C6164</tstamp>
+    </comp>
+    <comp ref="C6">
+      <value>100n</value>
+      <footprint>Capacitors_SMD:C_0603</footprint>
+      <fields>
+        <field name="Part Number">CC0603KRX7R9BB104</field>
+        <field name="Manufacturer">Yageo</field>
+        <field name="Package">0603</field>
+        <field name="Supplier">Farnell</field>
+        <field name="Order Code">1362556</field>
+        <field name="Alt. Supplier">Open Parts Library</field>
+        <field name="Alt. Order Code">302010138</field>
+        <field name="Note">100nF/50V X7R 0603 ceramic capacitor</field>
+      </fields>
+      <libsource lib="device" part="C"/>
+      <sheetpath names="/PowerDrivers/" tstamps="/570B3A33/"/>
+      <tstamp>57490CEE</tstamp>
+    </comp>
+    <comp ref="R4">
+      <value>560k</value>
+      <fields>
+        <field name="Part Number">RC0603JR-07560KL</field>
+        <field name="Manufacturer">Yageo</field>
+        <field name="Package">0603</field>
+        <field name="Supplier">Farnell</field>
+        <field name="Order Code">9233717</field>
+        <field name="Alt. Supplier">Open Parts Library</field>
+        <field name="Alt. Order Code">301010230</field>
+        <field name="Note">560kΩ/5% 0603 resistor</field>
+      </fields>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/PowerDrivers/" tstamps="/570B3A33/"/>
+      <tstamp>576AC3E1</tstamp>
+    </comp>
+    <comp ref="R8">
+      <value>560k</value>
+      <fields>
+        <field name="Part Number">RC0603JR-07560KL</field>
+        <field name="Manufacturer">Yageo</field>
+        <field name="Package">0603</field>
+        <field name="Supplier">Farnell</field>
+        <field name="Order Code">9233717</field>
+        <field name="Alt. Supplier">Open Parts Library</field>
+        <field name="Alt. Order Code">301010230</field>
+        <field name="Note">560kΩ/5% 0603 resistor</field>
+      </fields>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/PowerDrivers/" tstamps="/570B3A33/"/>
+      <tstamp>576AC4FB</tstamp>
+    </comp>
+    <comp ref="R7">
+      <value>560k</value>
+      <fields>
+        <field name="Part Number">RC0603JR-07560KL</field>
+        <field name="Manufacturer">Yageo</field>
+        <field name="Package">0603</field>
+        <field name="Supplier">Farnell</field>
+        <field name="Order Code">9233717</field>
+        <field name="Alt. Supplier">Open Parts Library</field>
+        <field name="Alt. Order Code">301010230</field>
+        <field name="Note">560kΩ/5% 0603 resistor</field>
+      </fields>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/PowerDrivers/" tstamps="/570B3A33/"/>
+      <tstamp>576AC61A</tstamp>
+    </comp>
+    <comp ref="R11">
+      <value>560k</value>
+      <fields>
+        <field name="Part Number">RC0603JR-07560KL</field>
+        <field name="Manufacturer">Yageo</field>
+        <field name="Package">0603</field>
+        <field name="Supplier">Farnell</field>
+        <field name="Order Code">9233717</field>
+        <field name="Alt. Supplier">Open Parts Library</field>
+        <field name="Alt. Order Code">301010230</field>
+        <field name="Note">560kΩ/5% 0603 resistor</field>
+      </fields>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/PowerDrivers/" tstamps="/570B3A33/"/>
+      <tstamp>576AC71E</tstamp>
+    </comp>
+    <comp ref="R12">
+      <value>560k</value>
+      <fields>
+        <field name="Part Number">RC0603JR-07560KL</field>
+        <field name="Manufacturer">Yageo</field>
+        <field name="Package">0603</field>
+        <field name="Supplier">Farnell</field>
+        <field name="Order Code">9233717</field>
+        <field name="Alt. Supplier">Open Parts Library</field>
+        <field name="Alt. Order Code">301010230</field>
+        <field name="Note">560kΩ/5% 0603 resistor</field>
+      </fields>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/PowerDrivers/" tstamps="/570B3A33/"/>
+      <tstamp>576AC813</tstamp>
+    </comp>
+    <comp ref="R16">
+      <value>560k</value>
+      <fields>
+        <field name="Part Number">RC0603JR-07560KL</field>
+        <field name="Manufacturer">Yageo</field>
+        <field name="Package">0603</field>
+        <field name="Supplier">Farnell</field>
+        <field name="Order Code">9233717</field>
+        <field name="Alt. Supplier">Open Parts Library</field>
+        <field name="Alt. Order Code">301010230</field>
+        <field name="Note">560kΩ/5% 0603 resistor</field>
+      </fields>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/PowerDrivers/" tstamps="/570B3A33/"/>
+      <tstamp>576AC92D</tstamp>
+    </comp>
+    <comp ref="R15">
+      <value>560k</value>
+      <fields>
+        <field name="Part Number">RC0603JR-07560KL</field>
+        <field name="Manufacturer">Yageo</field>
+        <field name="Package">0603</field>
+        <field name="Supplier">Farnell</field>
+        <field name="Order Code">9233717</field>
+        <field name="Alt. Supplier">Open Parts Library</field>
+        <field name="Alt. Order Code">301010230</field>
+        <field name="Note">560kΩ/5% 0603 resistor</field>
+      </fields>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/PowerDrivers/" tstamps="/570B3A33/"/>
+      <tstamp>576ACA1C</tstamp>
+    </comp>
+    <comp ref="R6">
+      <value>10k</value>
+      <fields>
+        <field name="Part Number">RC0603FR-0710KL</field>
+        <field name="Manufacturer">Yageo</field>
+        <field name="Package">0603</field>
+        <field name="Supplier">Farnell</field>
+        <field name="Order Code">9238603</field>
+        <field name="Alt. Supplier">Open Parts Library</field>
+        <field name="Alt. Order Code">301010299</field>
+        <field name="Note">10kΩ/1% 0603 resistor</field>
+      </fields>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/PowerDrivers/" tstamps="/570B3A33/"/>
+      <tstamp>576AD988</tstamp>
+    </comp>
+    <comp ref="R10">
+      <value>10k</value>
+      <fields>
+        <field name="Part Number">RC0603FR-0710KL</field>
+        <field name="Manufacturer">Yageo</field>
+        <field name="Package">0603</field>
+        <field name="Supplier">Farnell</field>
+        <field name="Order Code">9238603</field>
+        <field name="Alt. Supplier">Open Parts Library</field>
+        <field name="Alt. Order Code">301010299</field>
+        <field name="Note">10kΩ/1% 0603 resistor</field>
+      </fields>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/PowerDrivers/" tstamps="/570B3A33/"/>
+      <tstamp>576ADAA6</tstamp>
+    </comp>
+    <comp ref="R9">
+      <value>10k</value>
+      <fields>
+        <field name="Part Number">RC0603FR-0710KL</field>
+        <field name="Manufacturer">Yageo</field>
+        <field name="Package">0603</field>
+        <field name="Supplier">Farnell</field>
+        <field name="Order Code">9238603</field>
+        <field name="Alt. Supplier">Open Parts Library</field>
+        <field name="Alt. Order Code">301010299</field>
+        <field name="Note">10kΩ/1% 0603 resistor</field>
+      </fields>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/PowerDrivers/" tstamps="/570B3A33/"/>
+      <tstamp>576ADB93</tstamp>
+    </comp>
+    <comp ref="R13">
+      <value>10k</value>
+      <fields>
+        <field name="Part Number">RC0603FR-0710KL</field>
+        <field name="Manufacturer">Yageo</field>
+        <field name="Package">0603</field>
+        <field name="Supplier">Farnell</field>
+        <field name="Order Code">9238603</field>
+        <field name="Alt. Supplier">Open Parts Library</field>
+        <field name="Alt. Order Code">301010299</field>
+        <field name="Note">10kΩ/1% 0603 resistor</field>
+      </fields>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/PowerDrivers/" tstamps="/570B3A33/"/>
+      <tstamp>576ADC9D</tstamp>
+    </comp>
+    <comp ref="R14">
+      <value>10k</value>
+      <fields>
+        <field name="Part Number">RC0603FR-0710KL</field>
+        <field name="Manufacturer">Yageo</field>
+        <field name="Package">0603</field>
+        <field name="Supplier">Farnell</field>
+        <field name="Order Code">9238603</field>
+        <field name="Alt. Supplier">Open Parts Library</field>
+        <field name="Alt. Order Code">301010299</field>
+        <field name="Note">10kΩ/1% 0603 resistor</field>
+      </fields>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/PowerDrivers/" tstamps="/570B3A33/"/>
+      <tstamp>576ADD98</tstamp>
+    </comp>
+    <comp ref="R18">
+      <value>10k</value>
+      <fields>
+        <field name="Part Number">RC0603FR-0710KL</field>
+        <field name="Manufacturer">Yageo</field>
+        <field name="Package">0603</field>
+        <field name="Supplier">Farnell</field>
+        <field name="Order Code">9238603</field>
+        <field name="Alt. Supplier">Open Parts Library</field>
+        <field name="Alt. Order Code">301010299</field>
+        <field name="Note">10kΩ/1% 0603 resistor</field>
+      </fields>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/PowerDrivers/" tstamps="/570B3A33/"/>
+      <tstamp>576ADEB4</tstamp>
+    </comp>
+    <comp ref="R17">
+      <value>10k</value>
+      <fields>
+        <field name="Part Number">RC0603FR-0710KL</field>
+        <field name="Manufacturer">Yageo</field>
+        <field name="Package">0603</field>
+        <field name="Supplier">Farnell</field>
+        <field name="Order Code">9238603</field>
+        <field name="Alt. Supplier">Open Parts Library</field>
+        <field name="Alt. Order Code">301010299</field>
+        <field name="Note">10kΩ/1% 0603 resistor</field>
+      </fields>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/PowerDrivers/" tstamps="/570B3A33/"/>
+      <tstamp>576ADFC5</tstamp>
+    </comp>
+    <comp ref="D2">
+      <value>LED GREEN</value>
+      <footprint>LEDs:LED_0603</footprint>
+      <fields>
+        <field name="Part Number">19-217-G7C-AN1P2-3T</field>
+        <field name="Manufacturer">Everlight</field>
+        <field name="Package">0603</field>
+        <field name="Supplier">Farnell</field>
+        <field name="Order Code">8554609</field>
+        <field name="Alt. Supplier">Open Parts Library</field>
+        <field name="Alt. Order Code">304090043</field>
+        <field name="Note">Green 0603 LED</field>
+      </fields>
+      <libsource lib="device" part="LED"/>
+      <sheetpath names="/PowerDrivers/" tstamps="/570B3A33/"/>
+      <tstamp>576AFD3F</tstamp>
+    </comp>
+    <comp ref="D6">
+      <value>LED GREEN</value>
+      <footprint>LEDs:LED_0603</footprint>
+      <fields>
+        <field name="Part Number">19-217-G7C-AN1P2-3T</field>
+        <field name="Manufacturer">Everlight</field>
+        <field name="Package">0603</field>
+        <field name="Supplier">Farnell</field>
+        <field name="Order Code">8554609</field>
+        <field name="Alt. Supplier">Open Parts Library</field>
+        <field name="Alt. Order Code">304090043</field>
+        <field name="Note">Green 0603 LED</field>
+      </fields>
+      <libsource lib="device" part="LED"/>
+      <sheetpath names="/PowerDrivers/" tstamps="/570B3A33/"/>
+      <tstamp>576AFE59</tstamp>
+    </comp>
+    <comp ref="D5">
+      <value>LED GREEN</value>
+      <footprint>LEDs:LED_0603</footprint>
+      <fields>
+        <field name="Part Number">19-217-G7C-AN1P2-3T</field>
+        <field name="Manufacturer">Everlight</field>
+        <field name="Package">0603</field>
+        <field name="Supplier">Farnell</field>
+        <field name="Order Code">8554609</field>
+        <field name="Alt. Supplier">Open Parts Library</field>
+        <field name="Alt. Order Code">304090043</field>
+        <field name="Note">Green 0603 LED</field>
+      </fields>
+      <libsource lib="device" part="LED"/>
+      <sheetpath names="/PowerDrivers/" tstamps="/570B3A33/"/>
+      <tstamp>576AFF48</tstamp>
+    </comp>
+    <comp ref="D9">
+      <value>LED GREEN</value>
+      <footprint>LEDs:LED_0603</footprint>
+      <fields>
+        <field name="Part Number">19-217-G7C-AN1P2-3T</field>
+        <field name="Manufacturer">Everlight</field>
+        <field name="Package">0603</field>
+        <field name="Supplier">Farnell</field>
+        <field name="Order Code">8554609</field>
+        <field name="Alt. Supplier">Open Parts Library</field>
+        <field name="Alt. Order Code">304090043</field>
+        <field name="Note">Green 0603 LED</field>
+      </fields>
+      <libsource lib="device" part="LED"/>
+      <sheetpath names="/PowerDrivers/" tstamps="/570B3A33/"/>
+      <tstamp>576B004A</tstamp>
+    </comp>
+    <comp ref="D10">
+      <value>LED GREEN</value>
+      <footprint>LEDs:LED_0603</footprint>
+      <fields>
+        <field name="Part Number">19-217-G7C-AN1P2-3T</field>
+        <field name="Manufacturer">Everlight</field>
+        <field name="Package">0603</field>
+        <field name="Supplier">Farnell</field>
+        <field name="Order Code">8554609</field>
+        <field name="Alt. Supplier">Open Parts Library</field>
+        <field name="Alt. Order Code">304090043</field>
+        <field name="Note">Green 0603 LED</field>
+      </fields>
+      <libsource lib="device" part="LED"/>
+      <sheetpath names="/PowerDrivers/" tstamps="/570B3A33/"/>
+      <tstamp>576B014F</tstamp>
+    </comp>
+    <comp ref="D14">
+      <value>LED GREEN</value>
+      <footprint>LEDs:LED_0603</footprint>
+      <fields>
+        <field name="Part Number">19-217-G7C-AN1P2-3T</field>
+        <field name="Manufacturer">Everlight</field>
+        <field name="Package">0603</field>
+        <field name="Supplier">Farnell</field>
+        <field name="Order Code">8554609</field>
+        <field name="Alt. Supplier">Open Parts Library</field>
+        <field name="Alt. Order Code">304090043</field>
+        <field name="Note">Green 0603 LED</field>
+      </fields>
+      <libsource lib="device" part="LED"/>
+      <sheetpath names="/PowerDrivers/" tstamps="/570B3A33/"/>
+      <tstamp>576B026B</tstamp>
+    </comp>
+    <comp ref="D13">
+      <value>LED GREEN</value>
+      <footprint>LEDs:LED_0603</footprint>
+      <fields>
+        <field name="Part Number">19-217-G7C-AN1P2-3T</field>
+        <field name="Manufacturer">Everlight</field>
+        <field name="Package">0603</field>
+        <field name="Supplier">Farnell</field>
+        <field name="Order Code">8554609</field>
+        <field name="Alt. Supplier">Open Parts Library</field>
+        <field name="Alt. Order Code">304090043</field>
+        <field name="Note">Green 0603 LED</field>
+      </fields>
+      <libsource lib="device" part="LED"/>
+      <sheetpath names="/PowerDrivers/" tstamps="/570B3A33/"/>
+      <tstamp>576B0378</tstamp>
+    </comp>
+    <comp ref="D3">
+      <value>1N5819</value>
+      <footprint>Diodes_SMD:SMA_Standard</footprint>
+      <fields>
+        <field name="Part Number">1N5819HW-7-F</field>
+        <field name="Manufacturer">Diodes</field>
+        <field name="Package">DO-214AC</field>
+        <field name="Supplier">Farnell</field>
+        <field name="Order Code">1773475</field>
+        <field name="Alt. Supplier">Open Parts Library</field>
+        <field name="Alt. Order Code">304020027</field>
+        <field name="Note">Schottky rectifier 40 V 1 A SOD-123</field>
+      </fields>
+      <libsource lib="device" part="D_Schottky"/>
+      <sheetpath names="/PowerDrivers/" tstamps="/570B3A33/"/>
+      <tstamp>576B06C7</tstamp>
+    </comp>
+    <comp ref="D4">
+      <value>1N5819</value>
+      <footprint>Diodes_SMD:SMA_Standard</footprint>
+      <fields>
+        <field name="Part Number">1N5819HW-7-F</field>
+        <field name="Manufacturer">Diodes</field>
+        <field name="Package">DO-214AC</field>
+        <field name="Supplier">Farnell</field>
+        <field name="Order Code">1773475</field>
+        <field name="Alt. Supplier">Open Parts Library</field>
+        <field name="Alt. Order Code">304020027</field>
+        <field name="Note">Schottky rectifier 40 V 1 A SOD-123</field>
+      </fields>
+      <libsource lib="device" part="D_Schottky"/>
+      <sheetpath names="/PowerDrivers/" tstamps="/570B3A33/"/>
+      <tstamp>576B0C4B</tstamp>
+    </comp>
+    <comp ref="D8">
+      <value>1N5819</value>
+      <footprint>Diodes_SMD:SMA_Standard</footprint>
+      <fields>
+        <field name="Part Number">1N5819HW-7-F</field>
+        <field name="Manufacturer">Diodes</field>
+        <field name="Package">DO-214AC</field>
+        <field name="Supplier">Farnell</field>
+        <field name="Order Code">1773475</field>
+        <field name="Alt. Supplier">Open Parts Library</field>
+        <field name="Alt. Order Code">304020027</field>
+        <field name="Note">Schottky rectifier 40 V 1 A SOD-123</field>
+      </fields>
+      <libsource lib="device" part="D_Schottky"/>
+      <sheetpath names="/PowerDrivers/" tstamps="/570B3A33/"/>
+      <tstamp>576B0D6F</tstamp>
+    </comp>
+    <comp ref="D7">
+      <value>1N5819</value>
+      <footprint>Diodes_SMD:SMA_Standard</footprint>
+      <fields>
+        <field name="Part Number">1N5819HW-7-F</field>
+        <field name="Manufacturer">Diodes</field>
+        <field name="Package">DO-214AC</field>
+        <field name="Supplier">Farnell</field>
+        <field name="Order Code">1773475</field>
+        <field name="Alt. Supplier">Open Parts Library</field>
+        <field name="Alt. Order Code">304020027</field>
+        <field name="Note">Schottky rectifier 40 V 1 A SOD-123</field>
+      </fields>
+      <libsource lib="device" part="D_Schottky"/>
+      <sheetpath names="/PowerDrivers/" tstamps="/570B3A33/"/>
+      <tstamp>576B0E60</tstamp>
+    </comp>
+    <comp ref="D11">
+      <value>1N5819</value>
+      <footprint>Diodes_SMD:SMA_Standard</footprint>
+      <fields>
+        <field name="Part Number">1N5819HW-7-F</field>
+        <field name="Manufacturer">Diodes</field>
+        <field name="Package">DO-214AC</field>
+        <field name="Supplier">Farnell</field>
+        <field name="Order Code">1773475</field>
+        <field name="Alt. Supplier">Open Parts Library</field>
+        <field name="Alt. Order Code">304020027</field>
+        <field name="Note">Schottky rectifier 40 V 1 A SOD-123</field>
+      </fields>
+      <libsource lib="device" part="D_Schottky"/>
+      <sheetpath names="/PowerDrivers/" tstamps="/570B3A33/"/>
+      <tstamp>576B0F64</tstamp>
+    </comp>
+    <comp ref="D12">
+      <value>1N5819</value>
+      <footprint>Diodes_SMD:SMA_Standard</footprint>
+      <fields>
+        <field name="Part Number">1N5819HW-7-F</field>
+        <field name="Manufacturer">Diodes</field>
+        <field name="Package">DO-214AC</field>
+        <field name="Supplier">Farnell</field>
+        <field name="Order Code">1773475</field>
+        <field name="Alt. Supplier">Open Parts Library</field>
+        <field name="Alt. Order Code">304020027</field>
+        <field name="Note">Schottky rectifier 40 V 1 A SOD-123</field>
+      </fields>
+      <libsource lib="device" part="D_Schottky"/>
+      <sheetpath names="/PowerDrivers/" tstamps="/570B3A33/"/>
+      <tstamp>576B1055</tstamp>
+    </comp>
+    <comp ref="D16">
+      <value>1N5819</value>
+      <footprint>Diodes_SMD:SMA_Standard</footprint>
+      <fields>
+        <field name="Part Number">1N5819HW-7-F</field>
+        <field name="Manufacturer">Diodes</field>
+        <field name="Package">DO-214AC</field>
+        <field name="Supplier">Farnell</field>
+        <field name="Order Code">1773475</field>
+        <field name="Alt. Supplier">Open Parts Library</field>
+        <field name="Alt. Order Code">304020027</field>
+        <field name="Note">Schottky rectifier 40 V 1 A SOD-123</field>
+      </fields>
+      <libsource lib="device" part="D_Schottky"/>
+      <sheetpath names="/PowerDrivers/" tstamps="/570B3A33/"/>
+      <tstamp>576B116F</tstamp>
+    </comp>
+    <comp ref="D15">
+      <value>1N5819</value>
+      <footprint>Diodes_SMD:SMA_Standard</footprint>
+      <fields>
+        <field name="Part Number">1N5819HW-7-F</field>
+        <field name="Manufacturer">Diodes</field>
+        <field name="Package">DO-214AC</field>
+        <field name="Supplier">Farnell</field>
+        <field name="Order Code">1773475</field>
+        <field name="Alt. Supplier">Open Parts Library</field>
+        <field name="Alt. Order Code">304020027</field>
+        <field name="Note">Schottky rectifier 40 V 1 A SOD-123</field>
+      </fields>
+      <libsource lib="device" part="D_Schottky"/>
+      <sheetpath names="/PowerDrivers/" tstamps="/570B3A33/"/>
+      <tstamp>576B1266</tstamp>
+    </comp>
+    <comp ref="C13">
+      <value>10u/25V</value>
+      <footprint>Capacitors_SMD:C_0805</footprint>
+      <fields>
+        <field name="Part Number">CC0805KKX5R8BB106</field>
+        <field name="Manufacturer">Yageo</field>
+        <field name="Package">0805</field>
+        <field name="Supplier">Farnell</field>
+        <field name="Order Code">1735530</field>
+        <field name="Alt. Supplier">Open Parts Library</field>
+        <field name="Alt. Order Code">302010178</field>
+        <field name="Note">10μF/25V 0805 X5R ceramic capacitor</field>
+      </fields>
+      <libsource lib="device" part="C"/>
+      <sheetpath names="/PowerDrivers/" tstamps="/570B3A33/"/>
+      <tstamp>576B31A7</tstamp>
+    </comp>
+    <comp ref="C11">
+      <value>10u/25V</value>
+      <footprint>Capacitors_SMD:C_0805</footprint>
+      <fields>
+        <field name="Part Number">CC0805KKX5R8BB106</field>
+        <field name="Manufacturer">Yageo</field>
+        <field name="Package">0805</field>
+        <field name="Supplier">Farnell</field>
+        <field name="Order Code">1735530</field>
+        <field name="Alt. Supplier">Open Parts Library</field>
+        <field name="Alt. Order Code">302010178</field>
+        <field name="Note">10μF/25V 0805 X5R ceramic capacitor</field>
+      </fields>
+      <libsource lib="device" part="C"/>
+      <sheetpath names="/PowerDrivers/" tstamps="/570B3A33/"/>
+      <tstamp>576B32BD</tstamp>
+    </comp>
+    <comp ref="C12">
+      <value>10u/25V</value>
+      <footprint>Capacitors_SMD:C_0805</footprint>
+      <fields>
+        <field name="Part Number">CC0805KKX5R8BB106</field>
+        <field name="Manufacturer">Yageo</field>
+        <field name="Package">0805</field>
+        <field name="Supplier">Farnell</field>
+        <field name="Order Code">1735530</field>
+        <field name="Alt. Supplier">Open Parts Library</field>
+        <field name="Alt. Order Code">302010178</field>
+        <field name="Note">10μF/25V 0805 X5R ceramic capacitor</field>
+      </fields>
+      <libsource lib="device" part="C"/>
+      <sheetpath names="/PowerDrivers/" tstamps="/570B3A33/"/>
+      <tstamp>576B33B6</tstamp>
+    </comp>
+    <comp ref="C10">
+      <value>10u/25V</value>
+      <footprint>Capacitors_SMD:C_0805</footprint>
+      <fields>
+        <field name="Part Number">CC0805KKX5R8BB106</field>
+        <field name="Manufacturer">Yageo</field>
+        <field name="Package">0805</field>
+        <field name="Supplier">Farnell</field>
+        <field name="Order Code">1735530</field>
+        <field name="Alt. Supplier">Open Parts Library</field>
+        <field name="Alt. Order Code">302010178</field>
+        <field name="Note">10μF/25V 0805 X5R ceramic capacitor</field>
+      </fields>
+      <libsource lib="device" part="C"/>
+      <sheetpath names="/PowerDrivers/" tstamps="/570B3A33/"/>
+      <tstamp>576B34AC</tstamp>
+    </comp>
+    <comp ref="C9">
+      <value>10u/25V</value>
+      <footprint>Capacitors_SMD:C_0805</footprint>
+      <fields>
+        <field name="Part Number">CC0805KKX5R8BB106</field>
+        <field name="Manufacturer">Yageo</field>
+        <field name="Package">0805</field>
+        <field name="Supplier">Farnell</field>
+        <field name="Order Code">1735530</field>
+        <field name="Alt. Supplier">Open Parts Library</field>
+        <field name="Alt. Order Code">302010178</field>
+        <field name="Note">10μF/25V 0805 X5R ceramic capacitor</field>
+      </fields>
+      <libsource lib="device" part="C"/>
+      <sheetpath names="/PowerDrivers/" tstamps="/570B3A33/"/>
+      <tstamp>576B3597</tstamp>
+    </comp>
+    <comp ref="C7">
+      <value>10u/25V</value>
+      <footprint>Capacitors_SMD:C_0805</footprint>
+      <fields>
+        <field name="Part Number">CC0805KKX5R8BB106</field>
+        <field name="Manufacturer">Yageo</field>
+        <field name="Package">0805</field>
+        <field name="Supplier">Farnell</field>
+        <field name="Order Code">1735530</field>
+        <field name="Alt. Supplier">Open Parts Library</field>
+        <field name="Alt. Order Code">302010178</field>
+        <field name="Note">10μF/25V 0805 X5R ceramic capacitor</field>
+      </fields>
+      <libsource lib="device" part="C"/>
+      <sheetpath names="/PowerDrivers/" tstamps="/570B3A33/"/>
+      <tstamp>576B36AB</tstamp>
+    </comp>
+    <comp ref="C8">
+      <value>10u/25V</value>
+      <footprint>Capacitors_SMD:C_0805</footprint>
+      <fields>
+        <field name="Part Number">CC0805KKX5R8BB106</field>
+        <field name="Manufacturer">Yageo</field>
+        <field name="Package">0805</field>
+        <field name="Supplier">Farnell</field>
+        <field name="Order Code">1735530</field>
+        <field name="Alt. Supplier">Open Parts Library</field>
+        <field name="Alt. Order Code">302010178</field>
+        <field name="Note">10μF/25V 0805 X5R ceramic capacitor</field>
+      </fields>
+      <libsource lib="device" part="C"/>
+      <sheetpath names="/PowerDrivers/" tstamps="/570B3A33/"/>
+      <tstamp>576B37CA</tstamp>
+    </comp>
+    <comp ref="P4">
+      <value>GS009S</value>
+      <footprint>Connect:AK300-2</footprint>
+      <fields>
+        <field name="Part Number">GS009S-5.0-02P-1</field>
+        <field name="Manufacturer">GOOSVN</field>
+        <field name="Package">5mm pitch</field>
+        <field name="Supplier">Farnell</field>
+        <field name="Order Code">2493622</field>
+        <field name="Alt. Supplier">Open Parts Library</field>
+        <field name="Alt. Order Code">320110028</field>
+        <field name="Note">5mm 2way screw terminal</field>
+      </fields>
+      <libsource lib="conn" part="CONN_01X02"/>
+      <sheetpath names="/PowerDrivers/" tstamps="/570B3A33/"/>
+      <tstamp>576B3EEF</tstamp>
+    </comp>
+    <comp ref="P6">
+      <value>GS009S</value>
+      <footprint>Connect:AK300-2</footprint>
+      <fields>
+        <field name="Part Number">GS009S-5.0-02P-1</field>
+        <field name="Manufacturer">GOOSVN</field>
+        <field name="Package">5mm pitch</field>
+        <field name="Supplier">Farnell</field>
+        <field name="Order Code">2493622</field>
+        <field name="Alt. Supplier">Open Parts Library</field>
+        <field name="Alt. Order Code">320110028</field>
+        <field name="Note">5mm 2way screw terminal</field>
+      </fields>
+      <libsource lib="conn" part="CONN_01X02"/>
+      <sheetpath names="/PowerDrivers/" tstamps="/570B3A33/"/>
+      <tstamp>576B3FF9</tstamp>
+    </comp>
+    <comp ref="P5">
+      <value>GS009S</value>
+      <footprint>Connect:AK300-2</footprint>
+      <fields>
+        <field name="Part Number">GS009S-5.0-02P-1</field>
+        <field name="Manufacturer">GOOSVN</field>
+        <field name="Package">5mm pitch</field>
+        <field name="Supplier">Farnell</field>
+        <field name="Order Code">2493622</field>
+        <field name="Alt. Supplier">Open Parts Library</field>
+        <field name="Alt. Order Code">320110028</field>
+        <field name="Note">5mm 2way screw terminal</field>
+      </fields>
+      <libsource lib="conn" part="CONN_01X02"/>
+      <sheetpath names="/PowerDrivers/" tstamps="/570B3A33/"/>
+      <tstamp>576B4104</tstamp>
+    </comp>
+    <comp ref="P7">
+      <value>GS009S</value>
+      <footprint>Connect:AK300-2</footprint>
+      <fields>
+        <field name="Part Number">GS009S-5.0-02P-1</field>
+        <field name="Manufacturer">GOOSVN</field>
+        <field name="Package">5mm pitch</field>
+        <field name="Supplier">Farnell</field>
+        <field name="Order Code">2493622</field>
+        <field name="Alt. Supplier">Open Parts Library</field>
+        <field name="Alt. Order Code">320110028</field>
+        <field name="Note">5mm 2way screw terminal</field>
+      </fields>
+      <libsource lib="conn" part="CONN_01X02"/>
+      <sheetpath names="/PowerDrivers/" tstamps="/570B3A33/"/>
+      <tstamp>576B4206</tstamp>
+    </comp>
+    <comp ref="P8">
+      <value>GS009S</value>
+      <footprint>Connect:AK300-2</footprint>
+      <fields>
+        <field name="Part Number">GS009S-5.0-02P-1</field>
+        <field name="Manufacturer">GOOSVN</field>
+        <field name="Package">5mm pitch</field>
+        <field name="Supplier">Farnell</field>
+        <field name="Order Code">2493622</field>
+        <field name="Alt. Supplier">Open Parts Library</field>
+        <field name="Alt. Order Code">320110028</field>
+        <field name="Note">5mm 2way screw terminal</field>
+      </fields>
+      <libsource lib="conn" part="CONN_01X02"/>
+      <sheetpath names="/PowerDrivers/" tstamps="/570B3A33/"/>
+      <tstamp>576B4305</tstamp>
+    </comp>
+    <comp ref="P10">
+      <value>GS009S</value>
+      <footprint>Connect:AK300-2</footprint>
+      <fields>
+        <field name="Part Number">GS009S-5.0-02P-1</field>
+        <field name="Manufacturer">GOOSVN</field>
+        <field name="Package">5mm pitch</field>
+        <field name="Supplier">Farnell</field>
+        <field name="Order Code">2493622</field>
+        <field name="Alt. Supplier">Open Parts Library</field>
+        <field name="Alt. Order Code">320110028</field>
+        <field name="Note">5mm 2way screw terminal</field>
+      </fields>
+      <libsource lib="conn" part="CONN_01X02"/>
+      <sheetpath names="/PowerDrivers/" tstamps="/570B3A33/"/>
+      <tstamp>576B4423</tstamp>
+    </comp>
+    <comp ref="P9">
+      <value>GS009S</value>
+      <footprint>Connect:AK300-2</footprint>
+      <fields>
+        <field name="Part Number">GS009S-5.0-02P-1</field>
+        <field name="Manufacturer">GOOSVN</field>
+        <field name="Package">5mm pitch</field>
+        <field name="Supplier">Farnell</field>
+        <field name="Order Code">2493622</field>
+        <field name="Alt. Supplier">Open Parts Library</field>
+        <field name="Alt. Order Code">320110028</field>
+        <field name="Note">5mm 2way screw terminal</field>
+      </fields>
+      <libsource lib="conn" part="CONN_01X02"/>
+      <sheetpath names="/PowerDrivers/" tstamps="/570B3A33/"/>
+      <tstamp>576B4518</tstamp>
+    </comp>
+    <comp ref="Q3">
+      <value>PSMN6R0</value>
+      <footprint>SMD_Packages:SO-8_PowerPAK_Vishay_Single</footprint>
+      <fields>
+        <field name="Part Number">PSMN6R0-30YLB</field>
+        <field name="Manufacturer">NXP</field>
+        <field name="Package">Power-SO8</field>
+        <field name="Supplier">Farnell</field>
+        <field name="Order Code">2067550</field>
+        <field name="Note">N-channel 30V 70A LFPAK MOSFET</field>
+      </fields>
+      <libsource lib="garduino-cache" part="Q_NMOS_SSSGD"/>
+      <sheetpath names="/PowerDrivers/" tstamps="/570B3A33/"/>
+      <tstamp>576B59BB</tstamp>
+    </comp>
+    <comp ref="Q5">
+      <value>PSMN6R0</value>
+      <footprint>SMD_Packages:SO-8_PowerPAK_Vishay_Single</footprint>
+      <fields>
+        <field name="Part Number">PSMN6R0-30YLB</field>
+        <field name="Manufacturer">NXP</field>
+        <field name="Package">Power-SO8</field>
+        <field name="Supplier">Farnell</field>
+        <field name="Order Code">2067550</field>
+        <field name="Note">N-channel 30V 70A LFPAK MOSFET</field>
+      </fields>
+      <libsource lib="garduino-cache" part="Q_NMOS_SSSGD"/>
+      <sheetpath names="/PowerDrivers/" tstamps="/570B3A33/"/>
+      <tstamp>576B5AD6</tstamp>
+    </comp>
+    <comp ref="Q4">
+      <value>PSMN6R0</value>
+      <footprint>SMD_Packages:SO-8_PowerPAK_Vishay_Single</footprint>
+      <fields>
+        <field name="Part Number">PSMN6R0-30YLB</field>
+        <field name="Manufacturer">NXP</field>
+        <field name="Package">Power-SO8</field>
+        <field name="Supplier">Farnell</field>
+        <field name="Order Code">2067550</field>
+        <field name="Note">N-channel 30V 70A LFPAK MOSFET</field>
+      </fields>
+      <libsource lib="garduino-cache" part="Q_NMOS_SSSGD"/>
+      <sheetpath names="/PowerDrivers/" tstamps="/570B3A33/"/>
+      <tstamp>576B5BDC</tstamp>
+    </comp>
+    <comp ref="Q6">
+      <value>PSMN6R0</value>
+      <footprint>SMD_Packages:SO-8_PowerPAK_Vishay_Single</footprint>
+      <fields>
+        <field name="Part Number">PSMN6R0-30YLB</field>
+        <field name="Manufacturer">NXP</field>
+        <field name="Package">Power-SO8</field>
+        <field name="Supplier">Farnell</field>
+        <field name="Order Code">2067550</field>
+        <field name="Note">N-channel 30V 70A LFPAK MOSFET</field>
+      </fields>
+      <libsource lib="garduino-cache" part="Q_NMOS_SSSGD"/>
+      <sheetpath names="/PowerDrivers/" tstamps="/570B3A33/"/>
+      <tstamp>576B5CE3</tstamp>
+    </comp>
+    <comp ref="Q9">
+      <value>PSMN6R0</value>
+      <footprint>SMD_Packages:SO-8_PowerPAK_Vishay_Single</footprint>
+      <fields>
+        <field name="Part Number">PSMN6R0-30YLB</field>
+        <field name="Manufacturer">NXP</field>
+        <field name="Package">Power-SO8</field>
+        <field name="Supplier">Farnell</field>
+        <field name="Order Code">2067550</field>
+        <field name="Note">N-channel 30V 70A LFPAK MOSFET</field>
+      </fields>
+      <libsource lib="garduino-cache" part="Q_NMOS_SSSGD"/>
+      <sheetpath names="/PowerDrivers/" tstamps="/570B3A33/"/>
+      <tstamp>576B5DE5</tstamp>
+    </comp>
+    <comp ref="Q8">
+      <value>PSMN6R0</value>
+      <footprint>SMD_Packages:SO-8_PowerPAK_Vishay_Single</footprint>
+      <fields>
+        <field name="Part Number">PSMN6R0-30YLB</field>
+        <field name="Manufacturer">NXP</field>
+        <field name="Package">Power-SO8</field>
+        <field name="Supplier">Farnell</field>
+        <field name="Order Code">2067550</field>
+        <field name="Note">N-channel 30V 70A LFPAK MOSFET</field>
+      </fields>
+      <libsource lib="garduino-cache" part="Q_NMOS_SSSGD"/>
+      <sheetpath names="/PowerDrivers/" tstamps="/570B3A33/"/>
+      <tstamp>576B5F3E</tstamp>
+    </comp>
+    <comp ref="Q7">
+      <value>PSMN6R0</value>
+      <footprint>SMD_Packages:SO-8_PowerPAK_Vishay_Single</footprint>
+      <fields>
+        <field name="Part Number">PSMN6R0-30YLB</field>
+        <field name="Manufacturer">NXP</field>
+        <field name="Package">Power-SO8</field>
+        <field name="Supplier">Farnell</field>
+        <field name="Order Code">2067550</field>
+        <field name="Note">N-channel 30V 70A LFPAK MOSFET</field>
+      </fields>
+      <libsource lib="garduino-cache" part="Q_NMOS_SSSGD"/>
+      <sheetpath names="/PowerDrivers/" tstamps="/570B3A33/"/>
+      <tstamp>576B60BF</tstamp>
+    </comp>
+    <comp ref="R19">
+      <value>1k5</value>
+      <fields>
+        <field name="Part Number">RC0603JR-071K5L</field>
+        <field name="Manufacturer">Yageo</field>
+        <field name="Package">0603</field>
+        <field name="Supplier">Farnell</field>
+        <field name="Order Code">9233407</field>
+        <field name="Alt. Supplier">Open Parts Library</field>
+        <field name="Alt. Order Code">301010114</field>
+        <field name="Note">1.5kΩ/1% 0603 resistor</field>
+      </fields>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/Sensors/" tstamps="/570B8D3D/"/>
+      <tstamp>570B9453</tstamp>
+    </comp>
+    <comp ref="Q10">
+      <value>FDN340P</value>
+      <footprint>TO_SOT_Packages_SMD:SOT-23</footprint>
+      <fields>
+        <field name="Part Number">FDN340P</field>
+        <field name="Manufacturer">Fairchild Semiconductor</field>
+        <field name="Package">SOT-23</field>
+        <field name="Supplier">Farnell</field>
+        <field name="Order Code">9846310</field>
+        <field name="Alt. Supplier">Open Parts Library</field>
+        <field name="Alt. Order Code">305030026</field>
+        <field name="Note">Single P-channel logic level PowerTrench MOSFET</field>
+      </fields>
+      <libsource lib="device" part="Q_PMOS_GSD"/>
+      <sheetpath names="/Sensors/" tstamps="/570B8D3D/"/>
+      <tstamp>570B989B</tstamp>
+    </comp>
+    <comp ref="U4">
+      <value>MCP9700</value>
+      <fields>
+        <field name="Part Number">MCP9700AT-E/TT</field>
+        <field name="Manufacturer">Microchip</field>
+        <field name="Package">SOT-23</field>
+        <field name="Supplier">Farnell</field>
+        <field name="Order Code">1605577</field>
+        <field name="Note">Low-power linear active thermistor IC</field>
+      </fields>
+      <libsource lib="garduino-cache" part="MCP9700"/>
+      <sheetpath names="/Sensors/" tstamps="/570B8D3D/"/>
+      <tstamp>570BA209</tstamp>
+    </comp>
+    <comp ref="R24">
+      <value>220R</value>
+      <fields>
+        <field name="Part Number">RC0603JR-07220RL</field>
+        <field name="Manufacturer">Yageo</field>
+        <field name="Package">0603</field>
+        <field name="Supplier">Farnell</field>
+        <field name="Order Code">9233296 </field>
+        <field name="Alt. Supplier">Open Parts Library</field>
+        <field name="Alt. Order Code">301010163</field>
+        <field name="Note">220Ω/1% 0603 resistor</field>
+      </fields>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/Sensors/" tstamps="/570B8D3D/"/>
+      <tstamp>570BA211</tstamp>
+    </comp>
+    <comp ref="D17">
+      <value>1N5819</value>
+      <footprint>Diodes_SMD:SMA_Standard</footprint>
+      <fields>
+        <field name="Part Number">1N5819HW-7-F</field>
+        <field name="Manufacturer">Diodes</field>
+        <field name="Package">DO-214AC</field>
+        <field name="Supplier">Farnell</field>
+        <field name="Order Code">1773475</field>
+        <field name="Alt. Supplier">Open Parts Library</field>
+        <field name="Alt. Order Code">304020027</field>
+        <field name="Note">Schottky rectifier 40 V 1 A SOD-123</field>
+      </fields>
+      <libsource lib="device" part="D_Schottky"/>
+      <sheetpath names="/Sensors/" tstamps="/570B8D3D/"/>
+      <tstamp>570BCAD4</tstamp>
+    </comp>
+    <comp ref="C15">
+      <value>100n</value>
+      <footprint>Capacitors_SMD:C_0603</footprint>
+      <fields>
+        <field name="Part Number">CC0603KRX7R9BB104</field>
+        <field name="Manufacturer">Yageo</field>
+        <field name="Package">0603</field>
+        <field name="Supplier">Farnell</field>
+        <field name="Order Code">1362556</field>
+        <field name="Alt. Supplier">Open Parts Library</field>
+        <field name="Alt. Order Code">302010138</field>
+        <field name="Note">100nF/50V X7R 0603 ceramic capacitor</field>
+      </fields>
+      <libsource lib="device" part="C"/>
+      <sheetpath names="/Sensors/" tstamps="/570B8D3D/"/>
+      <tstamp>573D55F8</tstamp>
+    </comp>
+    <comp ref="C16">
+      <value>100n</value>
+      <footprint>Capacitors_SMD:C_0603</footprint>
+      <fields>
+        <field name="Part Number">CC0603KRX7R9BB104</field>
+        <field name="Manufacturer">Yageo</field>
+        <field name="Package">0603</field>
+        <field name="Supplier">Farnell</field>
+        <field name="Order Code">1362556</field>
+        <field name="Alt. Supplier">Open Parts Library</field>
+        <field name="Alt. Order Code">302010138</field>
+        <field name="Note">100nF/50V X7R 0603 ceramic capacitor</field>
+      </fields>
+      <libsource lib="device" part="C"/>
+      <sheetpath names="/Sensors/" tstamps="/570B8D3D/"/>
+      <tstamp>573D576C</tstamp>
+    </comp>
+    <comp ref="R20">
+      <value>1k5</value>
+      <fields>
+        <field name="Part Number">RC0603JR-071K5L</field>
+        <field name="Manufacturer">Yageo</field>
+        <field name="Package">0603</field>
+        <field name="Supplier">Farnell</field>
+        <field name="Order Code">9233407</field>
+        <field name="Alt. Supplier">Open Parts Library</field>
+        <field name="Alt. Order Code">301010114</field>
+        <field name="Note">1.5kΩ/1% 0603 resistor</field>
+      </fields>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/Sensors/" tstamps="/570B8D3D/"/>
+      <tstamp>573D5CC1</tstamp>
+    </comp>
+    <comp ref="C23">
+      <value>1u</value>
+      <footprint>Capacitors_SMD:C_0603</footprint>
+      <fields>
+        <field name="Part Number">CC0603KRX7R8BB105</field>
+        <field name="Manufacturer">Yageo</field>
+        <field name="Package">0603</field>
+        <field name="Supplier">Farnell</field>
+        <field name="Order Code">2496835</field>
+        <field name="Alt. Supplier">Open Parts Library</field>
+        <field name="Alt. Order Code">302010139</field>
+        <field name="Note">1µF/25V X7R 0603 ceramic capacitor</field>
+      </fields>
+      <libsource lib="device" part="C"/>
+      <sheetpath names="/Sensors/" tstamps="/570B8D3D/"/>
+      <tstamp>5748FBC0</tstamp>
+    </comp>
+    <comp ref="P11">
+      <value>3pin 3.5mm jack</value>
+      <footprint>jakub:SUNTECH_ST-PJ-312</footprint>
+      <fields>
+        <field name="Part Number">ST-PJ-312</field>
+        <field name="Manufacturer">Suntech</field>
+        <field name="Package">SMD</field>
+        <field name="Supplier">Farnell</field>
+        <field name="Alt. Supplier">Open Parts Library</field>
+        <field name="Alt. Order Code">320040007</field>
+        <field name="Note">3.5mm audio jack with switch</field>
+      </fields>
+      <libsource lib="jakub" part="ST-PJ-312"/>
+      <sheetpath names="/Sensors/" tstamps="/570B8D3D/"/>
+      <tstamp>576A862F</tstamp>
+    </comp>
+    <comp ref="R22">
+      <value>1k5</value>
+      <fields>
+        <field name="Part Number">RC0603JR-071K5L</field>
+        <field name="Manufacturer">Yageo</field>
+        <field name="Package">0603</field>
+        <field name="Supplier">Farnell</field>
+        <field name="Order Code">9233407</field>
+        <field name="Alt. Supplier">Open Parts Library</field>
+        <field name="Alt. Order Code">301010114</field>
+        <field name="Note">1.5kΩ/1% 0603 resistor</field>
+      </fields>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/Sensors/" tstamps="/570B8D3D/"/>
+      <tstamp>576A9F47</tstamp>
+    </comp>
+    <comp ref="C19">
+      <value>100n</value>
+      <footprint>Capacitors_SMD:C_0603</footprint>
+      <fields>
+        <field name="Part Number">CC0603KRX7R9BB104</field>
+        <field name="Manufacturer">Yageo</field>
+        <field name="Package">0603</field>
+        <field name="Supplier">Farnell</field>
+        <field name="Order Code">1362556</field>
+        <field name="Alt. Supplier">Open Parts Library</field>
+        <field name="Alt. Order Code">302010138</field>
+        <field name="Note">100nF/50V X7R 0603 ceramic capacitor</field>
+      </fields>
+      <libsource lib="device" part="C"/>
+      <sheetpath names="/Sensors/" tstamps="/570B8D3D/"/>
+      <tstamp>576A9F55</tstamp>
+    </comp>
+    <comp ref="C20">
+      <value>100n</value>
+      <footprint>Capacitors_SMD:C_0603</footprint>
+      <fields>
+        <field name="Part Number">CC0603KRX7R9BB104</field>
+        <field name="Manufacturer">Yageo</field>
+        <field name="Package">0603</field>
+        <field name="Supplier">Farnell</field>
+        <field name="Order Code">1362556</field>
+        <field name="Alt. Supplier">Open Parts Library</field>
+        <field name="Alt. Order Code">302010138</field>
+        <field name="Note">100nF/50V X7R 0603 ceramic capacitor</field>
+      </fields>
+      <libsource lib="device" part="C"/>
+      <sheetpath names="/Sensors/" tstamps="/570B8D3D/"/>
+      <tstamp>576A9F63</tstamp>
+    </comp>
+    <comp ref="R23">
+      <value>1k5</value>
+      <fields>
+        <field name="Part Number">RC0603JR-071K5L</field>
+        <field name="Manufacturer">Yageo</field>
+        <field name="Package">0603</field>
+        <field name="Supplier">Farnell</field>
+        <field name="Order Code">9233407</field>
+        <field name="Alt. Supplier">Open Parts Library</field>
+        <field name="Alt. Order Code">301010114</field>
+        <field name="Note">1.5kΩ/1% 0603 resistor</field>
+      </fields>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/Sensors/" tstamps="/570B8D3D/"/>
+      <tstamp>576A9F71</tstamp>
+    </comp>
+    <comp ref="P12">
+      <value>3pin 3.5mm jack</value>
+      <footprint>jakub:SUNTECH_ST-PJ-312</footprint>
+      <fields>
+        <field name="Part Number">ST-PJ-312</field>
+        <field name="Manufacturer">Suntech</field>
+        <field name="Package">SMD</field>
+        <field name="Supplier">Farnell</field>
+        <field name="Alt. Supplier">Open Parts Library</field>
+        <field name="Alt. Order Code">320040007</field>
+        <field name="Note">3.5mm audio jack with switch</field>
+      </fields>
+      <libsource lib="jakub" part="ST-PJ-312"/>
+      <sheetpath names="/Sensors/" tstamps="/570B8D3D/"/>
+      <tstamp>576AA5E8</tstamp>
+    </comp>
+    <comp ref="P14">
+      <value>3pin 3.5mm jack</value>
+      <footprint>jakub:SUNTECH_ST-PJ-312</footprint>
+      <fields>
+        <field name="Part Number">ST-PJ-312</field>
+        <field name="Manufacturer">Suntech</field>
+        <field name="Package">SMD</field>
+        <field name="Supplier">Farnell</field>
+        <field name="Alt. Supplier">Open Parts Library</field>
+        <field name="Alt. Order Code">320040007</field>
+        <field name="Note">3.5mm audio jack with switch</field>
+      </fields>
+      <libsource lib="jakub" part="ST-PJ-312"/>
+      <sheetpath names="/Sensors/" tstamps="/570B8D3D/"/>
+      <tstamp>576AA684</tstamp>
+    </comp>
+    <comp ref="P13">
+      <value>3pin 3.5mm jack</value>
+      <footprint>jakub:SUNTECH_ST-PJ-312</footprint>
+      <fields>
+        <field name="Part Number">ST-PJ-312</field>
+        <field name="Manufacturer">Suntech</field>
+        <field name="Package">SMD</field>
+        <field name="Supplier">Farnell</field>
+        <field name="Alt. Supplier">Open Parts Library</field>
+        <field name="Alt. Order Code">320040007</field>
+        <field name="Note">3.5mm audio jack with switch</field>
+      </fields>
+      <libsource lib="jakub" part="ST-PJ-312"/>
+      <sheetpath names="/Sensors/" tstamps="/570B8D3D/"/>
+      <tstamp>576AA729</tstamp>
+    </comp>
+    <comp ref="R21">
+      <value>560k</value>
+      <fields>
+        <field name="Part Number">RC0603JR-07560KL</field>
+        <field name="Manufacturer">Yageo</field>
+        <field name="Package">0603</field>
+        <field name="Supplier">Farnell</field>
+        <field name="Order Code">9233717</field>
+        <field name="Alt. Supplier">Open Parts Library</field>
+        <field name="Alt. Order Code">301010230</field>
+        <field name="Note">560kΩ/5% 0603 resistor</field>
+      </fields>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/Sensors/" tstamps="/570B8D3D/"/>
+      <tstamp>576C75A8</tstamp>
+    </comp>
+    <comp ref="C17">
+      <value>100n</value>
+      <footprint>Capacitors_SMD:C_0603</footprint>
+      <fields>
+        <field name="Part Number">CC0603KRX7R9BB104</field>
+        <field name="Manufacturer">Yageo</field>
+        <field name="Package">0603</field>
+        <field name="Supplier">Farnell</field>
+        <field name="Order Code">1362556</field>
+        <field name="Alt. Supplier">Open Parts Library</field>
+        <field name="Alt. Order Code">302010138</field>
+        <field name="Note">100nF/50V X7R 0603 ceramic capacitor</field>
+      </fields>
+      <libsource lib="device" part="C"/>
+      <sheetpath names="/Sensors/" tstamps="/570B8D3D/"/>
+      <tstamp>576C76B6</tstamp>
+    </comp>
+    <comp ref="C18">
+      <value>100n</value>
+      <footprint>Capacitors_SMD:C_0603</footprint>
+      <fields>
+        <field name="Part Number">CC0603KRX7R9BB104</field>
+        <field name="Manufacturer">Yageo</field>
+        <field name="Package">0603</field>
+        <field name="Supplier">Farnell</field>
+        <field name="Order Code">1362556</field>
+        <field name="Alt. Supplier">Open Parts Library</field>
+        <field name="Alt. Order Code">302010138</field>
+        <field name="Note">100nF/50V X7R 0603 ceramic capacitor</field>
+      </fields>
+      <libsource lib="device" part="C"/>
+      <sheetpath names="/Sensors/" tstamps="/570B8D3D/"/>
+      <tstamp>576C78B1</tstamp>
+    </comp>
+    <comp ref="C22">
+      <value>100n</value>
+      <footprint>Capacitors_SMD:C_0603</footprint>
+      <fields>
+        <field name="Part Number">CC0603KRX7R9BB104</field>
+        <field name="Manufacturer">Yageo</field>
+        <field name="Package">0603</field>
+        <field name="Supplier">Farnell</field>
+        <field name="Order Code">1362556</field>
+        <field name="Alt. Supplier">Open Parts Library</field>
+        <field name="Alt. Order Code">302010138</field>
+        <field name="Note">100nF/50V X7R 0603 ceramic capacitor</field>
+      </fields>
+      <libsource lib="device" part="C"/>
+      <sheetpath names="/Sensors/" tstamps="/570B8D3D/"/>
+      <tstamp>576C796E</tstamp>
+    </comp>
+    <comp ref="C21">
+      <value>100n</value>
+      <footprint>Capacitors_SMD:C_0603</footprint>
+      <fields>
+        <field name="Part Number">CC0603KRX7R9BB104</field>
+        <field name="Manufacturer">Yageo</field>
+        <field name="Package">0603</field>
+        <field name="Supplier">Farnell</field>
+        <field name="Order Code">1362556</field>
+        <field name="Alt. Supplier">Open Parts Library</field>
+        <field name="Alt. Order Code">302010138</field>
+        <field name="Note">100nF/50V X7R 0603 ceramic capacitor</field>
+      </fields>
+      <libsource lib="device" part="C"/>
+      <sheetpath names="/Sensors/" tstamps="/570B8D3D/"/>
+      <tstamp>576C7A07</tstamp>
+    </comp>
+    <comp ref="U6">
+      <value>74HCT165</value>
+      <fields>
+        <field name="Part Number">CD74HCT165M96</field>
+        <field name="Manufacturer">Texas Instruments</field>
+        <field name="Package">SO-16</field>
+        <field name="Supplier">Farnell</field>
+        <field name="Order Code">2407147</field>
+        <field name="Note">8-bit parallel-to-serial shift register</field>
+      </fields>
+      <libsource lib="74xx" part="74LS165"/>
+      <sheetpath names="/RFmodules/" tstamps="/570BDFE4/"/>
+      <tstamp>570BE18F</tstamp>
+    </comp>
+    <comp ref="U7">
+      <value>74AHCT1G125</value>
+      <fields>
+        <field name="Part Number">SN74AHCT1G125DCKT</field>
+        <field name="Manufacturer">Texas Instruments</field>
+        <field name="Package">SC-70</field>
+        <field name="Supplier">Farnell</field>
+        <field name="Order Code">1470731</field>
+        <field name="Note">Buffer non-inverting 3-state</field>
+      </fields>
+      <libsource lib="jakub" part="74HCT1G125"/>
+      <sheetpath names="/RFmodules/" tstamps="/570BDFE4/"/>
+      <tstamp>570BE197</tstamp>
+    </comp>
+    <comp ref="M1">
+      <value>PT2272</value>
+      <footprint>Socket_Strips:Socket_Strip_Straight_1x07</footprint>
+      <libsource lib="garduino-cache" part="PT2272"/>
+      <sheetpath names="/RFmodules/" tstamps="/570BDFE4/"/>
+      <tstamp>570BE1C6</tstamp>
+    </comp>
+    <comp ref="M2">
+      <value>PT2272</value>
+      <footprint>Socket_Strips:Socket_Strip_Straight_1x07</footprint>
+      <libsource lib="garduino-cache" part="PT2272"/>
+      <sheetpath names="/RFmodules/" tstamps="/570BDFE4/"/>
+      <tstamp>570BE1CD</tstamp>
+    </comp>
+    <comp ref="U5">
+      <value>74AHC1G02</value>
+      <fields>
+        <field name="Part Number">SN74AHC1G02DCKR</field>
+        <field name="Manufacturer">Texas Instruments</field>
+        <field name="Package">SC-70</field>
+        <field name="Supplier">Farnell</field>
+        <field name="Order Code">1287442</field>
+        <field name="Note">NOR gate 2-input</field>
+      </fields>
+      <libsource lib="jakub" part="74AHC1G02"/>
+      <sheetpath names="/RFmodules/" tstamps="/570BDFE4/"/>
+      <tstamp>570BE4CA</tstamp>
+    </comp>
+    <comp ref="R25">
+      <value>1k5</value>
+      <fields>
+        <field name="Part Number">RC0603JR-071K5L</field>
+        <field name="Manufacturer">Yageo</field>
+        <field name="Package">0603</field>
+        <field name="Supplier">Farnell</field>
+        <field name="Order Code">9233407</field>
+        <field name="Alt. Supplier">Open Parts Library</field>
+        <field name="Alt. Order Code">301010114</field>
+        <field name="Note">1.5kΩ/1% 0603 resistor</field>
+      </fields>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/RFmodules/" tstamps="/570BDFE4/"/>
+      <tstamp>570BEB97</tstamp>
+    </comp>
+    <comp ref="R26">
+      <value>3k</value>
+      <fields>
+        <field name="Part Number">RC0603FR-073KL</field>
+        <field name="Manufacturer">Yageo</field>
+        <field name="Package">0603</field>
+        <field name="Supplier">Farnell</field>
+        <field name="Order Code">9330976</field>
+        <field name="Alt. Supplier">Open Parts Library</field>
+        <field name="Note">3kΩ/1% 0603 resistor</field>
+      </fields>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/RFmodules/" tstamps="/570BDFE4/"/>
+      <tstamp>570BEB9D</tstamp>
+    </comp>
+    <comp ref="C25">
+      <value>10p</value>
+      <footprint>Capacitors_SMD:C_0603</footprint>
+      <fields>
+        <field name="Part Number">CC0603JRNPO9BN100</field>
+        <field name="Manufacturer">Yageo</field>
+        <field name="Package">0603</field>
+        <field name="Supplier">Farnell</field>
+        <field name="Order Code">721967</field>
+        <field name="Alt. Supplier">Open Parts Library</field>
+        <field name="Note">10pF/50V C0G/NP0 0603 ceramic capacitor</field>
+      </fields>
+      <libsource lib="device" part="C"/>
+      <sheetpath names="/RFmodules/" tstamps="/570BDFE4/"/>
+      <tstamp>570BEBA9</tstamp>
+    </comp>
+    <comp ref="C24">
+      <value>100n</value>
+      <footprint>Capacitors_SMD:C_0603</footprint>
+      <fields>
+        <field name="Part Number">CC0603KRX7R9BB104</field>
+        <field name="Manufacturer">Yageo</field>
+        <field name="Package">0603</field>
+        <field name="Supplier">Farnell</field>
+        <field name="Order Code">1362556</field>
+        <field name="Alt. Supplier">Open Parts Library</field>
+        <field name="Note">100nF/50V X7R 0603 ceramic capacitor</field>
+      </fields>
+      <libsource lib="device" part="C"/>
+      <sheetpath names="/RFmodules/" tstamps="/570BDFE4/"/>
+      <tstamp>570C68DF</tstamp>
+    </comp>
+    <comp ref="C26">
+      <value>100n</value>
+      <footprint>Capacitors_SMD:C_0603</footprint>
+      <fields>
+        <field name="Part Number">CC0603KRX7R9BB104</field>
+        <field name="Manufacturer">Yageo</field>
+        <field name="Package">0603</field>
+        <field name="Supplier">Farnell</field>
+        <field name="Order Code">1362556</field>
+        <field name="Alt. Supplier">Open Parts Library</field>
+        <field name="Note">100nF/50V X7R 0603 ceramic capacitor</field>
+      </fields>
+      <libsource lib="device" part="C"/>
+      <sheetpath names="/RFmodules/" tstamps="/570BDFE4/"/>
+      <tstamp>573D12B0</tstamp>
+    </comp>
+    <comp ref="C27">
+      <value>100n</value>
+      <footprint>Capacitors_SMD:C_0603</footprint>
+      <fields>
+        <field name="Part Number">CC0603KRX7R9BB104</field>
+        <field name="Manufacturer">Yageo</field>
+        <field name="Package">0603</field>
+        <field name="Supplier">Farnell</field>
+        <field name="Order Code">1362556</field>
+        <field name="Alt. Supplier">Open Parts Library</field>
+        <field name="Note">100nF/50V X7R 0603 ceramic capacitor</field>
+      </fields>
+      <libsource lib="device" part="C"/>
+      <sheetpath names="/RFmodules/" tstamps="/570BDFE4/"/>
+      <tstamp>573D1332</tstamp>
+    </comp>
+    <comp ref="C28">
+      <value>10p</value>
+      <footprint>Capacitors_SMD:C_0603</footprint>
+      <fields>
+        <field name="Part Number">CC0603JRNPO9BN100</field>
+        <field name="Manufacturer">Yageo</field>
+        <field name="Package">0603</field>
+        <field name="Supplier">Farnell</field>
+        <field name="Order Code">721967</field>
+        <field name="Alt. Supplier">Open Parts Library</field>
+        <field name="Note">10pF/50V C0G/NP0 0603 ceramic capacitor</field>
+      </fields>
+      <libsource lib="device" part="C"/>
+      <sheetpath names="/RFmodules/" tstamps="/570BDFE4/"/>
+      <tstamp>573D1776</tstamp>
+    </comp>
+    <comp ref="R27">
+      <value>1k5</value>
+      <fields>
+        <field name="Part Number">RC0603JR-071K5L</field>
+        <field name="Manufacturer">Yageo</field>
+        <field name="Package">0603</field>
+        <field name="Supplier">Farnell</field>
+        <field name="Order Code">9233407</field>
+        <field name="Alt. Supplier">Open Parts Library</field>
+        <field name="Alt. Order Code">301010114</field>
+        <field name="Note">1.5kΩ/1% 0603 resistor</field>
+      </fields>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/RFmodules/" tstamps="/570BDFE4/"/>
+      <tstamp>573D3924</tstamp>
+    </comp>
+    <comp ref="R28">
+      <value>3k</value>
+      <fields>
+        <field name="Part Number">RC0603FR-073KL</field>
+        <field name="Manufacturer">Yageo</field>
+        <field name="Package">0603</field>
+        <field name="Supplier">Farnell</field>
+        <field name="Order Code">9330976</field>
+        <field name="Alt. Supplier">Open Parts Library</field>
+        <field name="Note">3kΩ/1% 0603 resistor</field>
+      </fields>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/RFmodules/" tstamps="/570BDFE4/"/>
+      <tstamp>573D3D7C</tstamp>
+    </comp>
+  </components>
+  <libparts>
+    <libpart lib="jakub" part="74HC1G02">
+      <aliases>
+        <alias>74HCT1G02</alias>
+        <alias>74AHCT1G02</alias>
+        <alias>74AHC1G02</alias>
+      </aliases>
+      <description>Quad Nor2</description>
+      <footprints>
+        <fp>SO14*</fp>
+        <fp>14DIP*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">74HC1G02</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="input"/>
+        <pin num="2" name="~" type="input"/>
+        <pin num="3" name="GND" type="power_in"/>
+        <pin num="4" name="~" type="output"/>
+        <pin num="5" name="VCC" type="power_in"/>
+      </pins>
+    </libpart>
+    <libpart lib="jakub" part="74HCT1G125">
+      <description>Single Bus Buffer Gate With 3-State Output</description>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">74HCT1G125</field>
+      </fields>
+      <pins>
+        <pin num="1" name="OE" type="input"/>
+        <pin num="2" name="A" type="input"/>
+        <pin num="3" name="GND" type="power_in"/>
+        <pin num="4" name="Y" type="output"/>
+        <pin num="5" name="VCC" type="power_in"/>
+      </pins>
+    </libpart>
+    <libpart lib="74xx" part="74LS165">
+      <description>Shift Register 8 bits, parallel load</description>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">74LS165</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pl" type="input"/>
+        <pin num="2" name="CP" type="input"/>
+        <pin num="3" name="P4" type="input"/>
+        <pin num="4" name="P5" type="input"/>
+        <pin num="5" name="P6" type="input"/>
+        <pin num="6" name="P7" type="input"/>
+        <pin num="7" name="~Q7" type="output"/>
+        <pin num="8" name="GND" type="power_in"/>
+        <pin num="9" name="Q7" type="output"/>
+        <pin num="10" name="Ds" type="input"/>
+        <pin num="11" name="P0" type="input"/>
+        <pin num="12" name="P1" type="input"/>
+        <pin num="13" name="P2" type="input"/>
+        <pin num="14" name="P3" type="input"/>
+        <pin num="15" name="CE" type="input"/>
+        <pin num="16" name="VCC" type="power_in"/>
+      </pins>
+    </libpart>
+    <libpart lib="74xx" part="74LS241">
+      <aliases>
+        <alias>74LS244</alias>
+      </aliases>
+      <description>8 bits Bus Buffer 3 State out</description>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">74LS241</field>
+      </fields>
+      <pins>
+        <pin num="1" name="OEa" type="input"/>
+        <pin num="2" name="I0a" type="input"/>
+        <pin num="3" name="O3b" type="3state"/>
+        <pin num="4" name="I1a" type="input"/>
+        <pin num="5" name="O2b" type="3state"/>
+        <pin num="6" name="I2a" type="input"/>
+        <pin num="7" name="O1b" type="3state"/>
+        <pin num="8" name="I3a" type="input"/>
+        <pin num="9" name="O0b" type="3state"/>
+        <pin num="10" name="GND" type="power_in"/>
+        <pin num="11" name="I0b" type="input"/>
+        <pin num="12" name="O3a" type="3state"/>
+        <pin num="13" name="I1b" type="input"/>
+        <pin num="14" name="O2a" type="3state"/>
+        <pin num="15" name="I2b" type="input"/>
+        <pin num="16" name="O1a" type="3state"/>
+        <pin num="17" name="I3b" type="input"/>
+        <pin num="18" name="O0a" type="3state"/>
+        <pin num="19" name="OEb" type="input"/>
+        <pin num="20" name="VCC" type="power_in"/>
+      </pins>
+    </libpart>
+    <libpart lib="jakub" part="ARDUINO_MKR1000">
+      <description>Powerful board that combines the functionality of the Zero and the Wi-Fi Shield</description>
+      <fields>
+        <field name="Reference">A</field>
+        <field name="Value">ARDUINO_MKR1000</field>
+      </fields>
+      <pins>
+        <pin num="1" name="AREF" type="input"/>
+        <pin num="2" name="DAC0/A0" type="BiDi"/>
+        <pin num="3" name="A1" type="BiDi"/>
+        <pin num="4" name="A2" type="BiDi"/>
+        <pin num="5" name="A3" type="BiDi"/>
+        <pin num="6" name="A4" type="BiDi"/>
+        <pin num="7" name="A5" type="BiDi"/>
+        <pin num="8" name="A6" type="BiDi"/>
+        <pin num="9" name="0" type="BiDi"/>
+        <pin num="10" name="1" type="BiDi"/>
+        <pin num="11" name="2" type="BiDi"/>
+        <pin num="12" name="3" type="BiDi"/>
+        <pin num="13" name="4" type="BiDi"/>
+        <pin num="14" name="5" type="BiDi"/>
+        <pin num="15" name="6" type="BiDi"/>
+        <pin num="16" name="7" type="BiDi"/>
+        <pin num="17" name="8/MOSI" type="BiDi"/>
+        <pin num="18" name="9/SCK" type="BiDi"/>
+        <pin num="19" name="10/MISO" type="BiDi"/>
+        <pin num="20" name="11/SDA" type="BiDi"/>
+        <pin num="21" name="12/SCL" type="BiDi"/>
+        <pin num="22" name="13-&gt;RX" type="BiDi"/>
+        <pin num="23" name="14&lt;-TX" type="BiDi"/>
+        <pin num="24" name="~RESET" type="BiDi"/>
+        <pin num="25" name="GND" type="power_in"/>
+        <pin num="26" name="+3.3V" type="power_out"/>
+        <pin num="27" name="VIN" type="power_in"/>
+        <pin num="28" name="+5V" type="power_out"/>
+      </pins>
+    </libpart>
+    <libpart lib="memory" part="AT24CS16-STUM">
+      <description>16Kb (2048x8) Serial EEPROM with Unique Serial Number, SOT-23-5</description>
+      <docs>http://www.atmel.com/Images/Atmel-8859-SEEPROM-AT24CS16-Datasheet.pdf</docs>
+      <footprints>
+        <fp>SOT-23*</fp>
+        <fp>SOT-23*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">IC</field>
+        <field name="Value">AT24CS16-STUM</field>
+        <field name="Footprint">SOT-23-5</field>
+      </fields>
+      <pins>
+        <pin num="1" name="SCL" type="input"/>
+        <pin num="2" name="GND" type="power_in"/>
+        <pin num="3" name="SDA" type="BiDi"/>
+        <pin num="4" name="VCC" type="power_in"/>
+        <pin num="5" name="WP" type="input"/>
+      </pins>
+    </libpart>
+    <libpart lib="device" part="C">
+      <description>Unpolarized capacitor</description>
+      <footprints>
+        <fp>C?</fp>
+        <fp>C_????_*</fp>
+        <fp>C_????</fp>
+        <fp>SMD*_c</fp>
+        <fp>Capacitor*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">C</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="conn" part="CONN_01X02">
+      <description>Connector 01x02</description>
+      <footprints>
+        <fp>Pin_Header_Straight_1X02</fp>
+        <fp>Pin_Header_Angled_1X02</fp>
+        <fp>Socket_Strip_Straight_1X02</fp>
+        <fp>Socket_Strip_Angled_1X02</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">P</field>
+        <field name="Value">CONN_01X02</field>
+      </fields>
+      <pins>
+        <pin num="1" name="P1" type="passive"/>
+        <pin num="2" name="P2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="conn" part="CONN_01X03">
+      <description>Connector 01x03</description>
+      <footprints>
+        <fp>Pin_Header_Straight_1X03</fp>
+        <fp>Pin_Header_Angled_1X03</fp>
+        <fp>Socket_Strip_Straight_1X03</fp>
+        <fp>Socket_Strip_Angled_1X03</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">P</field>
+        <field name="Value">CONN_01X03</field>
+      </fields>
+      <pins>
+        <pin num="1" name="P1" type="passive"/>
+        <pin num="2" name="P2" type="passive"/>
+        <pin num="3" name="P3" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="device" part="CP">
+      <description>Polarised capacitor</description>
+      <footprints>
+        <fp>CP*</fp>
+        <fp>Elko*</fp>
+        <fp>TantalC*</fp>
+        <fp>C*elec</fp>
+        <fp>c_elec*</fp>
+        <fp>SMD*_Pol</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">CP</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="device" part="Crystal">
+      <description>Two pin crystal</description>
+      <footprints>
+        <fp>Crystal_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">Y</field>
+        <field name="Value">Crystal</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="garduino-cache" part="DS1339">
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">DS1339</field>
+      </fields>
+      <pins>
+        <pin num="1" name="X1" type="input"/>
+        <pin num="2" name="X2" type="input"/>
+        <pin num="3" name="VBAT" type="input"/>
+        <pin num="4" name="GND" type="input"/>
+        <pin num="5" name="SDA" type="input"/>
+        <pin num="6" name="SCL" type="input"/>
+        <pin num="7" name="SQW/~INT" type="input"/>
+        <pin num="8" name="VCC" type="input"/>
+      </pins>
+    </libpart>
+    <libpart lib="device" part="D_Schottky">
+      <description>Diode schottky</description>
+      <footprints>
+        <fp>D-Pak_TO252AA</fp>
+        <fp>Diode_*</fp>
+        <fp>*SingleDiode</fp>
+        <fp>*SingleDiode*</fp>
+        <fp>*_Diode_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">D_Schottky</field>
+      </fields>
+      <pins>
+        <pin num="1" name="K" type="passive"/>
+        <pin num="2" name="A" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="device" part="LED">
+      <footprints>
+        <fp>LED-3MM</fp>
+        <fp>LED-5MM</fp>
+        <fp>LED-10MM</fp>
+        <fp>LED-0603</fp>
+        <fp>LED-0805</fp>
+        <fp>LED-1206</fp>
+        <fp>LEDV</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">LED</field>
+      </fields>
+      <pins>
+        <pin num="1" name="K" type="passive"/>
+        <pin num="2" name="A" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="garduino-cache" part="MCP9700">
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">MCP9700</field>
+      </fields>
+      <pins>
+        <pin num="1" name="VDD" type="power_in"/>
+        <pin num="2" name="VOUT" type="output"/>
+        <pin num="3" name="GND" type="power_in"/>
+      </pins>
+    </libpart>
+    <libpart lib="garduino-cache" part="PT2272">
+      <fields>
+        <field name="Reference">M</field>
+        <field name="Value">PT2272</field>
+      </fields>
+      <pins>
+        <pin num="1" name="GND" type="power_in"/>
+        <pin num="2" name="VCC" type="power_in"/>
+        <pin num="3" name="D0" type="output"/>
+        <pin num="4" name="D1" type="output"/>
+        <pin num="5" name="D3" type="output"/>
+        <pin num="6" name="D4" type="output"/>
+        <pin num="7" name="VT" type="output"/>
+      </pins>
+    </libpart>
+    <libpart lib="device" part="Q_NMOS_GSD">
+      <description>Transistor N-MOSFET (general)</description>
+      <fields>
+        <field name="Reference">Q</field>
+        <field name="Value">Q_NMOS_GSD</field>
+      </fields>
+      <pins>
+        <pin num="1" name="G" type="input"/>
+        <pin num="2" name="S" type="passive"/>
+        <pin num="3" name="D" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="garduino-cache" part="Q_NMOS_SSSGD">
+      <fields>
+        <field name="Reference">Q</field>
+        <field name="Value">Q_NMOS_SSSGD</field>
+      </fields>
+      <pins>
+        <pin num="1" name="S" type="passive"/>
+        <pin num="2" name="S" type="input"/>
+        <pin num="3" name="S" type="input"/>
+        <pin num="4" name="G" type="input"/>
+        <pin num="5" name="D" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="device" part="Q_PMOS_GSD">
+      <description>Transistor P-MOSFET (general)</description>
+      <fields>
+        <field name="Reference">Q</field>
+        <field name="Value">Q_PMOS_GSD</field>
+      </fields>
+      <pins>
+        <pin num="1" name="G" type="input"/>
+        <pin num="2" name="S" type="passive"/>
+        <pin num="3" name="D" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="device" part="R">
+      <description>Resistor</description>
+      <footprints>
+        <fp>R_*</fp>
+        <fp>Resistor_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">R</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="jakub" part="ST-PJ-312">
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">ST-PJ-312</field>
+        <field name="Footprint">SUNTECH_ST-PJ-312</field>
+      </fields>
+      <pins>
+        <pin num="COM1" name="COM1" type="BiDi"/>
+        <pin num="COM2" name="COM2" type="BiDi"/>
+        <pin num="L" name="L" type="BiDi"/>
+        <pin num="LS" name="LS" type="BiDi"/>
+        <pin num="R" name="R" type="BiDi"/>
+        <pin num="RS" name="RS" type="BiDi"/>
+      </pins>
+    </libpart>
+  </libparts>
+  <libraries>
+    <library logical="device">
+      <uri>/usr/share/kicad/library/device.lib</uri>
+    </library>
+    <library logical="conn">
+      <uri>/usr/share/kicad/library/conn.lib</uri>
+    </library>
+    <library logical="74xx">
+      <uri>/usr/share/kicad/library/74xx.lib</uri>
+    </library>
+    <library logical="memory">
+      <uri>/usr/share/kicad/library/memory.lib</uri>
+    </library>
+    <library logical="jakub">
+      <uri>/home/jakub/KiCAD/share/library/contrib/jakub/jakub.lib</uri>
+    </library>
+    <library logical="garduino-cache">
+      <uri>/home/jakub/KiCAD/garduino_1_0/garduino-cache.lib</uri>
+    </library>
+  </libraries>
+  <nets>
+    <net code="1" name="GND">
+      <node ref="Q2" pin="2"/>
+      <node ref="Q2" pin="3"/>
+      <node ref="Q2" pin="1"/>
+      <node ref="R3" pin="2"/>
+      <node ref="C4" pin="2"/>
+      <node ref="U2" pin="5"/>
+      <node ref="U1" pin="4"/>
+      <node ref="U2" pin="2"/>
+      <node ref="Q4" pin="2"/>
+      <node ref="Q8" pin="3"/>
+      <node ref="Q8" pin="2"/>
+      <node ref="Q8" pin="1"/>
+      <node ref="Q9" pin="3"/>
+      <node ref="Q9" pin="2"/>
+      <node ref="Q9" pin="1"/>
+      <node ref="U3" pin="19"/>
+      <node ref="Q6" pin="3"/>
+      <node ref="Q6" pin="2"/>
+      <node ref="Q6" pin="1"/>
+      <node ref="Q4" pin="3"/>
+      <node ref="Q7" pin="1"/>
+      <node ref="Q4" pin="1"/>
+      <node ref="Q5" pin="3"/>
+      <node ref="Q5" pin="2"/>
+      <node ref="Q5" pin="1"/>
+      <node ref="Q3" pin="1"/>
+      <node ref="Q3" pin="3"/>
+      <node ref="U3" pin="10"/>
+      <node ref="Q3" pin="2"/>
+      <node ref="R15" pin="2"/>
+      <node ref="U3" pin="1"/>
+      <node ref="C8" pin="2"/>
+      <node ref="C7" pin="2"/>
+      <node ref="C9" pin="2"/>
+      <node ref="C10" pin="2"/>
+      <node ref="C12" pin="2"/>
+      <node ref="C11" pin="2"/>
+      <node ref="C13" pin="2"/>
+      <node ref="Q7" pin="3"/>
+      <node ref="Q7" pin="2"/>
+      <node ref="R16" pin="2"/>
+      <node ref="R12" pin="2"/>
+      <node ref="R11" pin="2"/>
+      <node ref="R7" pin="2"/>
+      <node ref="R8" pin="2"/>
+      <node ref="R4" pin="2"/>
+      <node ref="C6" pin="2"/>
+      <node ref="C14" pin="2"/>
+      <node ref="U5" pin="3"/>
+      <node ref="P1" pin="2"/>
+      <node ref="C26" pin="2"/>
+      <node ref="C27" pin="2"/>
+      <node ref="C23" pin="2"/>
+      <node ref="C16" pin="2"/>
+      <node ref="A1" pin="25"/>
+      <node ref="C15" pin="2"/>
+      <node ref="R26" pin="2"/>
+      <node ref="M2" pin="1"/>
+      <node ref="U6" pin="8"/>
+      <node ref="U7" pin="3"/>
+      <node ref="Q1" pin="2"/>
+      <node ref="P2" pin="3"/>
+      <node ref="R1" pin="2"/>
+      <node ref="R28" pin="2"/>
+      <node ref="C24" pin="2"/>
+      <node ref="M1" pin="1"/>
+      <node ref="C22" pin="2"/>
+      <node ref="C18" pin="2"/>
+      <node ref="C20" pin="2"/>
+      <node ref="C21" pin="2"/>
+      <node ref="P13" pin="COM2"/>
+      <node ref="P14" pin="COM1"/>
+      <node ref="P13" pin="COM1"/>
+      <node ref="P12" pin="COM2"/>
+      <node ref="P14" pin="COM2"/>
+      <node ref="P12" pin="COM1"/>
+      <node ref="C19" pin="2"/>
+      <node ref="P11" pin="COM2"/>
+      <node ref="C1" pin="2"/>
+      <node ref="P11" pin="COM1"/>
+      <node ref="C17" pin="2"/>
+      <node ref="C2" pin="2"/>
+      <node ref="C3" pin="2"/>
+      <node ref="U4" pin="3"/>
+      <node ref="C5" pin="2"/>
+    </net>
+    <net code="2" name="Net-(A1-Pad1)">
+      <node ref="A1" pin="1"/>
+    </net>
+    <net code="3" name="+3V3">
+      <node ref="U2" pin="4"/>
+      <node ref="A1" pin="26"/>
+      <node ref="U1" pin="8"/>
+      <node ref="C3" pin="1"/>
+      <node ref="C5" pin="1"/>
+      <node ref="R24" pin="1"/>
+      <node ref="R21" pin="1"/>
+      <node ref="Q10" pin="2"/>
+      <node ref="R2" pin="1"/>
+    </net>
+    <net code="4" name="/POWER">
+      <node ref="R1" pin="1"/>
+      <node ref="A1" pin="17"/>
+      <node ref="Q1" pin="1"/>
+    </net>
+    <net code="5" name="Net-(A1-Pad28)">
+      <node ref="A1" pin="28"/>
+    </net>
+    <net code="6" name="/SCL">
+      <node ref="U1" pin="6"/>
+      <node ref="U2" pin="1"/>
+      <node ref="A1" pin="21"/>
+    </net>
+    <net code="7" name="/SDA">
+      <node ref="U1" pin="5"/>
+      <node ref="U2" pin="3"/>
+      <node ref="A1" pin="20"/>
+    </net>
+    <net code="8" name="+12V">
+      <node ref="P1" pin="1"/>
+      <node ref="C14" pin="1"/>
+      <node ref="D15" pin="1"/>
+      <node ref="D16" pin="1"/>
+      <node ref="D12" pin="1"/>
+      <node ref="D11" pin="1"/>
+      <node ref="D7" pin="1"/>
+      <node ref="D8" pin="1"/>
+      <node ref="D4" pin="1"/>
+      <node ref="D3" pin="1"/>
+      <node ref="P3" pin="1"/>
+      <node ref="R5" pin="1"/>
+      <node ref="C1" pin="1"/>
+      <node ref="C11" pin="1"/>
+      <node ref="P4" pin="1"/>
+      <node ref="C8" pin="1"/>
+      <node ref="C7" pin="1"/>
+      <node ref="C10" pin="1"/>
+      <node ref="C12" pin="1"/>
+      <node ref="P6" pin="1"/>
+      <node ref="C13" pin="1"/>
+      <node ref="C9" pin="1"/>
+      <node ref="P9" pin="1"/>
+      <node ref="P10" pin="1"/>
+      <node ref="P8" pin="1"/>
+      <node ref="P7" pin="1"/>
+      <node ref="P5" pin="1"/>
+      <node ref="R6" pin="1"/>
+      <node ref="R10" pin="1"/>
+      <node ref="R9" pin="1"/>
+      <node ref="R13" pin="1"/>
+      <node ref="R14" pin="1"/>
+      <node ref="R17" pin="1"/>
+      <node ref="R18" pin="1"/>
+    </net>
+    <net code="9" name="/RFmodules/SCK">
+      <node ref="U6" pin="15"/>
+      <node ref="A1" pin="18"/>
+    </net>
+    <net code="10" name="/RFmodules/MISO">
+      <node ref="C28" pin="1"/>
+      <node ref="R27" pin="1"/>
+      <node ref="R28" pin="1"/>
+      <node ref="A1" pin="19"/>
+    </net>
+    <net code="11" name="/RFmodules/RF_DATA_3V3">
+      <node ref="R25" pin="1"/>
+      <node ref="C25" pin="1"/>
+      <node ref="R26" pin="1"/>
+      <node ref="A1" pin="14"/>
+    </net>
+    <net code="12" name="Net-(A1-Pad24)">
+      <node ref="A1" pin="24"/>
+    </net>
+    <net code="13" name="/RFmodules/~CS_RF">
+      <node ref="U6" pin="2"/>
+      <node ref="A1" pin="23"/>
+      <node ref="U7" pin="1"/>
+    </net>
+    <net code="14" name="VCC">
+      <node ref="C6" pin="1"/>
+      <node ref="M2" pin="2"/>
+      <node ref="U7" pin="5"/>
+      <node ref="C2" pin="1"/>
+      <node ref="C26" pin="1"/>
+      <node ref="A1" pin="27"/>
+      <node ref="C27" pin="1"/>
+      <node ref="P2" pin="1"/>
+      <node ref="U5" pin="5"/>
+      <node ref="U6" pin="16"/>
+      <node ref="M1" pin="2"/>
+      <node ref="U3" pin="20"/>
+      <node ref="C24" pin="1"/>
+    </net>
+    <net code="15" name="/RELAY">
+      <node ref="P2" pin="2"/>
+      <node ref="Q1" pin="3"/>
+    </net>
+    <net code="16" name="/PowerDrivers/D1">
+      <node ref="A1" pin="10"/>
+      <node ref="U3" pin="4"/>
+    </net>
+    <net code="17" name="/PowerDrivers/D3">
+      <node ref="U3" pin="8"/>
+      <node ref="A1" pin="12"/>
+    </net>
+    <net code="18" name="/PowerDrivers/D2">
+      <node ref="U3" pin="6"/>
+      <node ref="A1" pin="11"/>
+    </net>
+    <net code="19" name="/PowerDrivers/D5">
+      <node ref="U3" pin="13"/>
+      <node ref="A1" pin="16"/>
+    </net>
+    <net code="20" name="/PowerDrivers/D0">
+      <node ref="A1" pin="9"/>
+      <node ref="U3" pin="2"/>
+    </net>
+    <net code="21" name="Net-(U1-Pad2)">
+      <node ref="U1" pin="2"/>
+      <node ref="Y1" pin="1"/>
+    </net>
+    <net code="22" name="Net-(U1-Pad1)">
+      <node ref="Y1" pin="2"/>
+      <node ref="U1" pin="1"/>
+    </net>
+    <net code="23" name="/~RTC_INT">
+      <node ref="R2" pin="2"/>
+      <node ref="A1" pin="13"/>
+      <node ref="U1" pin="7"/>
+    </net>
+    <net code="24" name="/Sensors/SENS3">
+      <node ref="A1" pin="8"/>
+      <node ref="R23" pin="2"/>
+    </net>
+    <net code="25" name="/Sensors/SENS2">
+      <node ref="R22" pin="2"/>
+      <node ref="A1" pin="7"/>
+    </net>
+    <net code="26" name="/Sensors/SENS1">
+      <node ref="R20" pin="2"/>
+      <node ref="A1" pin="4"/>
+    </net>
+    <net code="27" name="/Sensors/TEMP">
+      <node ref="A1" pin="3"/>
+      <node ref="U4" pin="2"/>
+    </net>
+    <net code="28" name="/PowerDrivers/D7">
+      <node ref="U3" pin="17"/>
+      <node ref="A1" pin="6"/>
+    </net>
+    <net code="29" name="/PowerDrivers/D6">
+      <node ref="A1" pin="5"/>
+      <node ref="U3" pin="15"/>
+    </net>
+    <net code="30" name="/PowerDrivers/D4">
+      <node ref="U3" pin="11"/>
+      <node ref="A1" pin="15"/>
+    </net>
+    <net code="31" name="Net-(C4-Pad1)">
+      <node ref="U1" pin="3"/>
+      <node ref="C4" pin="1"/>
+    </net>
+    <net code="32" name="/Sensors/~SENS">
+      <node ref="A1" pin="22"/>
+      <node ref="D17" pin="1"/>
+    </net>
+    <net code="33" name="/Sensors/SENS0">
+      <node ref="R19" pin="2"/>
+      <node ref="A1" pin="2"/>
+    </net>
+    <net code="34" name="/PowerDrivers/OUT7">
+      <node ref="U3" pin="3"/>
+      <node ref="Q9" pin="4"/>
+      <node ref="R16" pin="1"/>
+    </net>
+    <net code="35" name="/PowerDrivers/OUT6">
+      <node ref="Q7" pin="4"/>
+      <node ref="U3" pin="5"/>
+      <node ref="R12" pin="1"/>
+    </net>
+    <net code="36" name="/PowerDrivers/OUT5">
+      <node ref="Q5" pin="4"/>
+      <node ref="U3" pin="7"/>
+      <node ref="R8" pin="1"/>
+    </net>
+    <net code="37" name="/PowerDrivers/OUT4">
+      <node ref="U3" pin="9"/>
+      <node ref="Q3" pin="4"/>
+      <node ref="R4" pin="1"/>
+    </net>
+    <net code="38" name="/PowerDrivers/OUT3">
+      <node ref="U3" pin="12"/>
+      <node ref="Q8" pin="4"/>
+      <node ref="R15" pin="1"/>
+    </net>
+    <net code="39" name="/PowerDrivers/OUT2">
+      <node ref="U3" pin="14"/>
+      <node ref="R11" pin="1"/>
+      <node ref="Q6" pin="4"/>
+    </net>
+    <net code="40" name="/PowerDrivers/OUT1">
+      <node ref="Q4" pin="4"/>
+      <node ref="R7" pin="1"/>
+      <node ref="U3" pin="16"/>
+    </net>
+    <net code="41" name="/PowerDrivers/OUT0">
+      <node ref="R3" pin="1"/>
+      <node ref="Q2" pin="4"/>
+      <node ref="U3" pin="18"/>
+    </net>
+    <net code="42" name="Net-(D14-Pad2)">
+      <node ref="D14" pin="2"/>
+      <node ref="R18" pin="2"/>
+    </net>
+    <net code="43" name="Net-(D10-Pad2)">
+      <node ref="R14" pin="2"/>
+      <node ref="D10" pin="2"/>
+    </net>
+    <net code="44" name="Net-(D9-Pad2)">
+      <node ref="R13" pin="2"/>
+      <node ref="D9" pin="2"/>
+    </net>
+    <net code="45" name="Net-(D5-Pad2)">
+      <node ref="R9" pin="2"/>
+      <node ref="D5" pin="2"/>
+    </net>
+    <net code="46" name="Net-(D6-Pad2)">
+      <node ref="R10" pin="2"/>
+      <node ref="D6" pin="2"/>
+    </net>
+    <net code="47" name="Net-(D2-Pad2)">
+      <node ref="R6" pin="2"/>
+      <node ref="D2" pin="2"/>
+    </net>
+    <net code="48" name="Net-(D13-Pad2)">
+      <node ref="R17" pin="2"/>
+      <node ref="D13" pin="2"/>
+    </net>
+    <net code="49" name="Net-(D5-Pad1)">
+      <node ref="P5" pin="2"/>
+      <node ref="D7" pin="2"/>
+      <node ref="D5" pin="1"/>
+      <node ref="Q4" pin="5"/>
+    </net>
+    <net code="50" name="Net-(D11-Pad2)">
+      <node ref="P7" pin="2"/>
+      <node ref="Q6" pin="5"/>
+      <node ref="D9" pin="1"/>
+      <node ref="D11" pin="2"/>
+    </net>
+    <net code="51" name="Net-(D1-Pad2)">
+      <node ref="D1" pin="2"/>
+      <node ref="R5" pin="2"/>
+    </net>
+    <net code="52" name="Net-(D1-Pad1)">
+      <node ref="D3" pin="2"/>
+      <node ref="D1" pin="1"/>
+      <node ref="P3" pin="2"/>
+      <node ref="Q2" pin="5"/>
+    </net>
+    <net code="53" name="Net-(D10-Pad1)">
+      <node ref="P8" pin="2"/>
+      <node ref="D10" pin="1"/>
+      <node ref="D12" pin="2"/>
+      <node ref="Q7" pin="5"/>
+    </net>
+    <net code="54" name="Net-(D14-Pad1)">
+      <node ref="P10" pin="2"/>
+      <node ref="D14" pin="1"/>
+      <node ref="Q9" pin="5"/>
+      <node ref="D16" pin="2"/>
+    </net>
+    <net code="55" name="Net-(D13-Pad1)">
+      <node ref="D13" pin="1"/>
+      <node ref="D15" pin="2"/>
+      <node ref="Q8" pin="5"/>
+      <node ref="P9" pin="2"/>
+    </net>
+    <net code="56" name="Net-(D2-Pad1)">
+      <node ref="D4" pin="2"/>
+      <node ref="Q3" pin="5"/>
+      <node ref="D2" pin="1"/>
+      <node ref="P4" pin="2"/>
+    </net>
+    <net code="57" name="Net-(D6-Pad1)">
+      <node ref="D6" pin="1"/>
+      <node ref="D8" pin="2"/>
+      <node ref="Q5" pin="5"/>
+      <node ref="P6" pin="2"/>
+    </net>
+    <net code="58" name="Net-(P14-PadRS)">
+      <node ref="P14" pin="RS"/>
+    </net>
+    <net code="59" name="Net-(P12-PadLS)">
+      <node ref="P12" pin="LS"/>
+    </net>
+    <net code="60" name="Net-(P12-PadRS)">
+      <node ref="P12" pin="RS"/>
+    </net>
+    <net code="61" name="Net-(C20-Pad1)">
+      <node ref="C20" pin="1"/>
+      <node ref="R23" pin="1"/>
+      <node ref="P14" pin="R"/>
+    </net>
+    <net code="62" name="Net-(C19-Pad1)">
+      <node ref="C19" pin="1"/>
+      <node ref="P13" pin="R"/>
+      <node ref="R22" pin="1"/>
+    </net>
+    <net code="63" name="Net-(P14-PadLS)">
+      <node ref="P14" pin="LS"/>
+    </net>
+    <net code="64" name="Net-(P13-PadLS)">
+      <node ref="P13" pin="LS"/>
+    </net>
+    <net code="65" name="Net-(P13-PadRS)">
+      <node ref="P13" pin="RS"/>
+    </net>
+    <net code="66" name="Net-(D17-Pad2)">
+      <node ref="D17" pin="2"/>
+      <node ref="R21" pin="2"/>
+      <node ref="Q10" pin="1"/>
+    </net>
+    <net code="67" name="Net-(C16-Pad1)">
+      <node ref="R20" pin="1"/>
+      <node ref="C16" pin="1"/>
+      <node ref="P12" pin="R"/>
+    </net>
+    <net code="68" name="Net-(C15-Pad1)">
+      <node ref="R19" pin="1"/>
+      <node ref="P11" pin="R"/>
+      <node ref="C15" pin="1"/>
+    </net>
+    <net code="69" name="Net-(P11-PadLS)">
+      <node ref="P11" pin="LS"/>
+    </net>
+    <net code="70" name="Net-(P11-PadRS)">
+      <node ref="P11" pin="RS"/>
+    </net>
+    <net code="71" name="Net-(C17-Pad1)">
+      <node ref="C21" pin="1"/>
+      <node ref="P14" pin="L"/>
+      <node ref="P13" pin="L"/>
+      <node ref="P11" pin="L"/>
+      <node ref="C22" pin="1"/>
+      <node ref="C18" pin="1"/>
+      <node ref="C17" pin="1"/>
+      <node ref="P12" pin="L"/>
+      <node ref="Q10" pin="3"/>
+    </net>
+    <net code="72" name="Net-(C23-Pad1)">
+      <node ref="C23" pin="1"/>
+      <node ref="R24" pin="2"/>
+      <node ref="U4" pin="1"/>
+    </net>
+    <net code="73" name="/RFmodules/VT_1">
+      <node ref="U5" pin="1"/>
+      <node ref="M1" pin="7"/>
+    </net>
+    <net code="74" name="/RFmodules/VT_2">
+      <node ref="U5" pin="2"/>
+      <node ref="M2" pin="7"/>
+    </net>
+    <net code="75" name="Net-(U6-Pad7)">
+      <node ref="U6" pin="7"/>
+    </net>
+    <net code="76" name="Net-(U6-Pad10)">
+      <node ref="U6" pin="10"/>
+    </net>
+    <net code="77" name="/RFmodules/SD2">
+      <node ref="C28" pin="2"/>
+      <node ref="R27" pin="2"/>
+      <node ref="U7" pin="4"/>
+    </net>
+    <net code="78" name="/RFmodules/D1_2">
+      <node ref="U6" pin="4"/>
+      <node ref="M2" pin="4"/>
+    </net>
+    <net code="79" name="/RFmodules/D2_2">
+      <node ref="U6" pin="5"/>
+      <node ref="M2" pin="5"/>
+    </net>
+    <net code="80" name="/RFmodules/D3_2">
+      <node ref="M2" pin="6"/>
+      <node ref="U6" pin="6"/>
+    </net>
+    <net code="81" name="/RFmodules/RF_DATA">
+      <node ref="U6" pin="1"/>
+      <node ref="U5" pin="4"/>
+      <node ref="R25" pin="2"/>
+      <node ref="C25" pin="2"/>
+    </net>
+    <net code="82" name="/RFmodules/D0_2">
+      <node ref="M2" pin="3"/>
+      <node ref="U6" pin="3"/>
+    </net>
+    <net code="83" name="/RFmodules/D0_1">
+      <node ref="M1" pin="3"/>
+      <node ref="U6" pin="11"/>
+    </net>
+    <net code="84" name="/RFmodules/D1_1">
+      <node ref="U6" pin="12"/>
+      <node ref="M1" pin="4"/>
+    </net>
+    <net code="85" name="/RFmodules/D2_1">
+      <node ref="U6" pin="13"/>
+      <node ref="M1" pin="5"/>
+    </net>
+    <net code="86" name="/RFmodules/D3_1">
+      <node ref="M1" pin="6"/>
+      <node ref="U6" pin="14"/>
+    </net>
+    <net code="87" name="/RFmodules/SD1">
+      <node ref="U6" pin="9"/>
+      <node ref="U7" pin="2"/>
+    </net>
+  </nets>
+</export>
