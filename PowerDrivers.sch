@@ -304,7 +304,7 @@ F 3 "" H 6600 2000 50  0000 C CNN
 $EndComp
 Connection ~ 5700 3300
 Text Label 5400 3300 0    60   ~ 0
-OUT1
+OUT2
 Wire Wire Line
 	7700 3400 7700 3300
 Wire Wire Line
@@ -388,7 +388,7 @@ F 3 "" H 8600 2000 50  0000 C CNN
 $EndComp
 Connection ~ 7700 3300
 Text Label 7400 3300 0    60   ~ 0
-OUT2
+OUT4
 Wire Wire Line
 	9700 3400 9700 3300
 Wire Wire Line
@@ -472,7 +472,7 @@ F 3 "" H 10600 2000 50  0000 C CNN
 $EndComp
 Connection ~ 9700 3300
 Text Label 9400 3300 0    60   ~ 0
-OUT3
+OUT6
 Wire Wire Line
 	3700 5700 3700 5600
 Wire Wire Line
@@ -556,7 +556,7 @@ F 3 "" H 4600 4300 50  0000 C CNN
 $EndComp
 Connection ~ 3700 5600
 Text Label 3400 5600 0    60   ~ 0
-OUT4
+OUT1
 Wire Wire Line
 	5700 5700 5700 5600
 Wire Wire Line
@@ -640,7 +640,7 @@ F 3 "" H 6600 4300 50  0000 C CNN
 $EndComp
 Connection ~ 5700 5600
 Text Label 5400 5600 0    60   ~ 0
-OUT5
+OUT3
 Wire Wire Line
 	7700 5700 7700 5600
 Wire Wire Line
@@ -724,7 +724,7 @@ F 3 "" H 8600 4300 50  0000 C CNN
 $EndComp
 Connection ~ 7700 5600
 Text Label 7400 5600 0    60   ~ 0
-OUT6
+OUT5
 Wire Wire Line
 	9700 5700 9700 5600
 Wire Wire Line
