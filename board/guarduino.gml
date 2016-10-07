@@ -1,0 +1,1 @@
+/home/jakub/KiCAD/guarduino_1_0/board/guarduino-Edge.Cuts.gm1

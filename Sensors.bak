@@ -29,18 +29,18 @@ LIBS:atmel
 LIBS:contrib
 LIBS:valves
 LIBS:jakub
-LIBS:garduino-cache
+LIBS:guarduino-cache
 EELAYER 25 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
 Sheet 3 4
-Title ""
-Date ""
-Rev ""
-Comp ""
-Comment1 ""
-Comment2 ""
+Title "Guarduino Control Unit"
+Date "2016-09-30"
+Rev "1.0"
+Comp "Serious Play Ltd"
+Comment1 "Jakub Nedbal"
+Comment2 "License: CC-BY-SA"
 Comment3 ""
 Comment4 ""
 $EndDescr
@@ -348,8 +348,8 @@ $Comp
 L ST-PJ-312 P11
 U 1 1 576A862F
 P 3000 3550
-F 0 "P11" H 2800 3600 50  0000 L BNN
-F 1 "3pin 3.5mm jack" H 2800 3500 50  0000 L TNN
+F 0 "P11" H 2750 3600 50  0000 L BNN
+F 1 "3pin 3.5mm jack" H 2750 3500 50  0000 L TNN
 F 2 "jakub:SUNTECH_ST-PJ-312" H 3000 3550 50  0001 L CNN
 F 3 "" H 3000 3550 60  0000 C CNN
 F 4 "ST-PJ-312" H 3000 3550 60  0001 C CNN "Part Number"
@@ -569,8 +569,8 @@ $Comp
 L ST-PJ-312 P12
 U 1 1 576AA5E8
 P 3000 5450
-F 0 "P12" H 2800 5500 50  0000 L BNN
-F 1 "3pin 3.5mm jack" H 2800 5400 50  0000 L TNN
+F 0 "P12" H 2750 5500 50  0000 L BNN
+F 1 "3pin 3.5mm jack" H 2750 5400 50  0000 L TNN
 F 2 "jakub:SUNTECH_ST-PJ-312" H 3000 5450 50  0001 L CNN
 F 3 "" H 3000 5450 60  0000 C CNN
 F 4 "ST-PJ-312" H 3000 5450 60  0001 C CNN "Part Number"
@@ -587,8 +587,8 @@ $Comp
 L ST-PJ-312 P14
 U 1 1 576AA684
 P 7000 5450
-F 0 "P14" H 6800 5500 50  0000 L BNN
-F 1 "3pin 3.5mm jack" H 6800 5400 50  0000 L TNN
+F 0 "P14" H 6750 5500 50  0000 L BNN
+F 1 "3pin 3.5mm jack" H 6750 5400 50  0000 L TNN
 F 2 "jakub:SUNTECH_ST-PJ-312" H 7000 5450 50  0001 L CNN
 F 3 "" H 7000 5450 60  0000 C CNN
 F 4 "ST-PJ-312" H 7000 5450 60  0001 C CNN "Part Number"
@@ -605,8 +605,8 @@ $Comp
 L ST-PJ-312 P13
 U 1 1 576AA729
 P 7000 3550
-F 0 "P13" H 6800 3600 50  0000 L BNN
-F 1 "3pin 3.5mm jack" H 6800 3500 50  0000 L TNN
+F 0 "P13" H 6750 3600 50  0000 L BNN
+F 1 "3pin 3.5mm jack" H 6750 3500 50  0000 L TNN
 F 2 "jakub:SUNTECH_ST-PJ-312" H 7000 3550 50  0001 L CNN
 F 3 "" H 7000 3550 60  0000 C CNN
 F 4 "ST-PJ-312" H 7000 3550 60  0001 C CNN "Part Number"
@@ -796,4 +796,12 @@ Wire Wire Line
 	7900 3800 7900 3900
 Connection ~ 7700 5700
 Connection ~ 3700 5700
+Text Notes 750  1300 0    60   ~ 0
+SENSORS\nUp to four external sensors powered by 3.3V can be connected through 3.5mm audio jacks.\nThe power supply to the sensors is controlled by the Arduino to conserve power and minimize electrolytic damage to moisture sensors.\nThe idea is to probe the sensors only at pre-programmed intervals.\nThere is a temperature sensor on board to allow following the temperature. This might be particularly useful to turn-off watering or draining the pipes during frosts.
+Text Notes 3200 1550 0    60   ~ 0
+SENSOR POWER SWITCH
+Text Notes 4050 2100 0    60   ~ 0
+FOUR EXTERANAL SENSOR CONNECTORS
+Text Notes 8700 2100 0    60   ~ 0
+TEMPERATURE SENSOR
 $EndSCHEMATC
