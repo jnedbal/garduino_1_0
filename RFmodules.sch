@@ -350,7 +350,8 @@ F 6 "0603" H 3800 6250 60  0001 C CNN "Package"
 F 7 "Farnell" H 3800 6250 60  0001 C CNN "Supplier"
 F 8 "9330976" H 3800 6250 60  0001 C CNN "Order Code"
 F 9 "Open Parts Library" H 3800 6250 60  0001 C CNN "Alt. Supplier"
-F 10 "3kΩ/1% 0603 resistor" H 3800 6250 60  0001 C CNN "Note"
+F 10 "301010170" H 3800 6250 60  0001 C CNN "Alt. Order Code"
+F 11 "3kΩ/1% 0603 resistor" H 3800 6250 60  0001 C CNN "Note"
 	1    3800 6250
 	1    0    0    -1  
 $EndComp
@@ -379,7 +380,8 @@ F 6 "0603" H 3550 5800 60  0001 C CNN "Package"
 F 7 "Farnell" H 3550 5800 60  0001 C CNN "Supplier"
 F 8 "721967" H 3550 5800 60  0001 C CNN "Order Code"
 F 9 "Open Parts Library" H 3550 5800 60  0001 C CNN "Alt. Supplier"
-F 10 "10pF/50V C0G/NP0 0603 ceramic capacitor" H 3550 5800 60  0001 C CNN "Note"
+F 10 "302010097" H 3550 5800 60  0001 C CNN "Alt. Order Code"
+F 11 "10pF/50V C0G/NP0 0603 ceramic capacitor" H 3550 5800 60  0001 C CNN "Note"
 	1    3550 5800
 	0    1    1    0   
 $EndComp
@@ -419,7 +421,8 @@ F 6 "0603" H 2500 6350 60  0001 C CNN "Package"
 F 7 "Farnell" H 2500 6350 60  0001 C CNN "Supplier"
 F 8 "1362556" H 2500 6350 60  0001 C CNN "Order Code"
 F 9 "Open Parts Library" H 2500 6350 60  0001 C CNN "Alt. Supplier"
-F 10 "100nF/50V X7R 0603 ceramic capacitor" H 2500 6350 60  0001 C CNN "Note"
+F 10 "302010138" H 2500 6350 60  0001 C CNN "Alt. Order Code"
+F 11 "100nF/50V X7R 0603 ceramic capacitor" H 2500 6350 60  0001 C CNN "Note"
 	1    2500 6350
 	1    0    0    -1  
 $EndComp
@@ -515,7 +518,8 @@ F 6 "0603" H 5500 5450 60  0001 C CNN "Package"
 F 7 "Farnell" H 5500 5450 60  0001 C CNN "Supplier"
 F 8 "1362556" H 5500 5450 60  0001 C CNN "Order Code"
 F 9 "Open Parts Library" H 5500 5450 60  0001 C CNN "Alt. Supplier"
-F 10 "100nF/50V X7R 0603 ceramic capacitor" H 5500 5450 60  0001 C CNN "Note"
+F 10 "302010138" H 5500 5450 60  0001 C CNN "Alt. Order Code"
+F 11 "100nF/50V X7R 0603 ceramic capacitor" H 5500 5450 60  0001 C CNN "Note"
 	1    5500 5450
 	1    0    0    -1  
 $EndComp
@@ -533,7 +537,8 @@ F 6 "0603" H 6400 5450 60  0001 C CNN "Package"
 F 7 "Farnell" H 6400 5450 60  0001 C CNN "Supplier"
 F 8 "1362556" H 6400 5450 60  0001 C CNN "Order Code"
 F 9 "Open Parts Library" H 6400 5450 60  0001 C CNN "Alt. Supplier"
-F 10 "100nF/50V X7R 0603 ceramic capacitor" H 6400 5450 60  0001 C CNN "Note"
+F 10 "302010138" H 6400 5450 60  0001 C CNN "Alt. Order Code"
+F 11 "100nF/50V X7R 0603 ceramic capacitor" H 6400 5450 60  0001 C CNN "Note"
 	1    6400 5450
 	1    0    0    -1  
 $EndComp
@@ -551,7 +556,8 @@ F 6 "0603" H 7150 4100 60  0001 C CNN "Package"
 F 7 "Farnell" H 7150 4100 60  0001 C CNN "Supplier"
 F 8 "721967" H 7150 4100 60  0001 C CNN "Order Code"
 F 9 "Open Parts Library" H 7150 4100 60  0001 C CNN "Alt. Supplier"
-F 10 "10pF/50V C0G/NP0 0603 ceramic capacitor" H 7150 4100 60  0001 C CNN "Note"
+F 10 "302010097" H 7150 4100 60  0001 C CNN "Alt. Order Code"
+F 11 "10pF/50V C0G/NP0 0603 ceramic capacitor" H 7150 4100 60  0001 C CNN "Note"
 	1    7150 4100
 	0    1    1    0   
 $EndComp
@@ -588,7 +594,8 @@ F 6 "0603" H 7400 4550 60  0001 C CNN "Package"
 F 7 "Farnell" H 7400 4550 60  0001 C CNN "Supplier"
 F 8 "9330976" H 7400 4550 60  0001 C CNN "Order Code"
 F 9 "Open Parts Library" H 7400 4550 60  0001 C CNN "Alt. Supplier"
-F 10 "3kΩ/1% 0603 resistor" H 7400 4550 60  0001 C CNN "Note"
+F 10 "301010170" H 7400 4550 60  0001 C CNN "Alt. Order Code"
+F 11 "3kΩ/1% 0603 resistor" H 7400 4550 60  0001 C CNN "Note"
 	1    7400 4550
 	1    0    0    -1  
 $EndComp

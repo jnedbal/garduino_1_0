@@ -734,7 +734,8 @@ F 6 "0603" H 6700 3450 60  0001 C CNN "Package"
 F 7 "Farnell" H 6700 3450 60  0001 C CNN "Supplier"
 F 8 "1362556" H 6700 3450 60  0001 C CNN "Order Code"
 F 9 "Open Parts Library" H 6700 3450 60  0001 C CNN "Alt. Supplier"
-F 10 "100nF/50V X7R 0603 ceramic capacitor" H 6700 3450 60  0001 C CNN "Note"
+F 10 "302010138" H 6700 3450 60  0001 C CNN "Alt. Order Code"
+F 11 "100nF/50V X7R 0603 ceramic capacitor" H 6700 3450 60  0001 C CNN "Note"
 	1    6700 3450
 	1    0    0    -1  
 $EndComp
@@ -752,7 +753,8 @@ F 6 "0603" H 9300 3450 60  0001 C CNN "Package"
 F 7 "Farnell" H 9300 3450 60  0001 C CNN "Supplier"
 F 8 "1362556" H 9300 3450 60  0001 C CNN "Order Code"
 F 9 "Open Parts Library" H 9300 3450 60  0001 C CNN "Alt. Supplier"
-F 10 "100nF/50V X7R 0603 ceramic capacitor" H 9300 3450 60  0001 C CNN "Note"
+F 10 "302010138" H 9300 3450 60  0001 C CNN "Alt. Order Code"
+F 11 "100nF/50V X7R 0603 ceramic capacitor" H 9300 3450 60  0001 C CNN "Note"
 	1    9300 3450
 	1    0    0    -1  
 $EndComp

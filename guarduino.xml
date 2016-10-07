@@ -2,7 +2,7 @@
 <export version="D">
   <design>
     <source>/home/jakub/KiCAD/guarduino_1_0/guarduino.sch</source>
-    <date>Fri 07 Oct 2016 02:00:31 BST</date>
+    <date>Fri 07 Oct 2016 02:35:27 BST</date>
     <tool>Eeschema (2015-12-10 BZR 6367)-product</tool>
     <sheet number="1" name="/" tstamps="/">
       <title_block>
@@ -214,6 +214,7 @@
         <field name="Supplier">Farnell</field>
         <field name="Order Code">1362556</field>
         <field name="Alt. Supplier">Open Parts Library</field>
+        <field name="Alt. Order Code">302010138</field>
         <field name="Note">100nF/50V X7R 0603 ceramic capacitor</field>
       </fields>
       <libsource lib="device" part="C"/>
@@ -230,6 +231,7 @@
         <field name="Supplier">Farnell</field>
         <field name="Order Code">1362556</field>
         <field name="Alt. Supplier">Open Parts Library</field>
+        <field name="Alt. Order Code">302010138</field>
         <field name="Note">100nF/50V X7R 0603 ceramic capacitor</field>
       </fields>
       <libsource lib="device" part="C"/>
@@ -1733,6 +1735,7 @@
         <field name="Supplier">Farnell</field>
         <field name="Order Code">9330976</field>
         <field name="Alt. Supplier">Open Parts Library</field>
+        <field name="Alt. Order Code">301010170</field>
         <field name="Note">3kΩ/1% 0603 resistor</field>
       </fields>
       <libsource lib="device" part="R"/>
@@ -1749,6 +1752,7 @@
         <field name="Supplier">Farnell</field>
         <field name="Order Code">721967</field>
         <field name="Alt. Supplier">Open Parts Library</field>
+        <field name="Alt. Order Code">302010097</field>
         <field name="Note">10pF/50V C0G/NP0 0603 ceramic capacitor</field>
       </fields>
       <libsource lib="device" part="C"/>
@@ -1765,6 +1769,7 @@
         <field name="Supplier">Farnell</field>
         <field name="Order Code">1362556</field>
         <field name="Alt. Supplier">Open Parts Library</field>
+        <field name="Alt. Order Code">302010138</field>
         <field name="Note">100nF/50V X7R 0603 ceramic capacitor</field>
       </fields>
       <libsource lib="device" part="C"/>
@@ -1781,6 +1786,7 @@
         <field name="Supplier">Farnell</field>
         <field name="Order Code">1362556</field>
         <field name="Alt. Supplier">Open Parts Library</field>
+        <field name="Alt. Order Code">302010138</field>
         <field name="Note">100nF/50V X7R 0603 ceramic capacitor</field>
       </fields>
       <libsource lib="device" part="C"/>
@@ -1797,6 +1803,7 @@
         <field name="Supplier">Farnell</field>
         <field name="Order Code">1362556</field>
         <field name="Alt. Supplier">Open Parts Library</field>
+        <field name="Alt. Order Code">302010138</field>
         <field name="Note">100nF/50V X7R 0603 ceramic capacitor</field>
       </fields>
       <libsource lib="device" part="C"/>
@@ -1813,6 +1820,7 @@
         <field name="Supplier">Farnell</field>
         <field name="Order Code">721967</field>
         <field name="Alt. Supplier">Open Parts Library</field>
+        <field name="Alt. Order Code">302010097</field>
         <field name="Note">10pF/50V C0G/NP0 0603 ceramic capacitor</field>
       </fields>
       <libsource lib="device" part="C"/>
@@ -1846,6 +1854,7 @@
         <field name="Supplier">Farnell</field>
         <field name="Order Code">9330976</field>
         <field name="Alt. Supplier">Open Parts Library</field>
+        <field name="Alt. Order Code">301010170</field>
         <field name="Note">3kΩ/1% 0603 resistor</field>
       </fields>
       <libsource lib="device" part="R"/>
@@ -2281,20 +2290,20 @@
     </libpart>
   </libparts>
   <libraries>
-    <library logical="memory">
-      <uri>/usr/local/share/kicad/library/memory.lib</uri>
-    </library>
-    <library logical="conn">
-      <uri>/usr/local/share/kicad/library/conn.lib</uri>
-    </library>
-    <library logical="device">
-      <uri>/usr/local/share/kicad/library/device.lib</uri>
-    </library>
     <library logical="jakub">
       <uri>/home/jakub/KiCAD/share/library/contrib/jakub/jakub.lib</uri>
     </library>
     <library logical="74xx">
       <uri>/usr/local/share/kicad/library/74xx.lib</uri>
+    </library>
+    <library logical="memory">
+      <uri>/usr/local/share/kicad/library/memory.lib</uri>
+    </library>
+    <library logical="device">
+      <uri>/usr/local/share/kicad/library/device.lib</uri>
+    </library>
+    <library logical="conn">
+      <uri>/usr/local/share/kicad/library/conn.lib</uri>
     </library>
   </libraries>
   <nets>
